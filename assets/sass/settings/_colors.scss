@@ -3,20 +3,20 @@
 // *----------------------------------*/
 
 :root {
-  --color-brand:   #5869DA;
+  --color-brand: 	#3371FF;
   --color-white:   #FFFFFF;
   --color-dark:    #000C2D;
-  --color-text:    #000C2D;
-  --color-gray:    #687385;
+  --color-text:    #dae7ff;
+  --color-gray:    #F2F4F7;
   --color-error:   #CC3C64;
-  --color-success: #07815C;
+  --color-success: #5ed5a1;
   --color-border:  rgba(0, 0, 0, .05);
-  --color-border:  #EAECEE;
 
-  --bg-gray:         #F5F7F9;
-  --bg-dark:         #12245A;
-  --bg-white:        var(--color-white);
+  --bg-color:      var(--color-dark);
+  --bg-gray:       var(--color-dark);
+  --bg-dark:       var(--color-dark);
+  --bg-white:      var(--color-dark);
 
   --color-code-inline: var(--color-text);
-  --bg-tag-list:       linear-gradient(to left, var(--bg-white), rgba(255, 255, 255, 0));
+  --bg-tag-list: linear-gradient(to left, var(--bg-color), rgba(255, 255, 255, 0));
 }

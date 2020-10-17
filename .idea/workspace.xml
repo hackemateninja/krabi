@@ -44,11 +44,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602911682811</updated>
-      <workItem from="1602911683866" duration="861000" />
+      <workItem from="1602911683866" duration="2182000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1867" height="262" key="GridCell.Tab.0.bottom" timestamp="1602915275260">
+      <screen x="-1920" y="23" width="1920" height="1004" />
+    </state>
+    <state width="1867" height="262" key="GridCell.Tab.0.bottom/0.23.1680.1027/-1920.23.1920.1004@-1920.23.1920.1004" timestamp="1602915275260" />
+    <state width="1867" height="262" key="GridCell.Tab.0.center" timestamp="1602915275258">
+      <screen x="-1920" y="23" width="1920" height="1004" />
+    </state>
+    <state width="1867" height="262" key="GridCell.Tab.0.center/0.23.1680.1027/-1920.23.1920.1004@-1920.23.1920.1004" timestamp="1602915275258" />
+    <state width="1867" height="262" key="GridCell.Tab.0.left" timestamp="1602915275256">
+      <screen x="-1920" y="23" width="1920" height="1004" />
+    </state>
+    <state width="1867" height="262" key="GridCell.Tab.0.left/0.23.1680.1027/-1920.23.1920.1004@-1920.23.1920.1004" timestamp="1602915275256" />
+    <state width="1867" height="262" key="GridCell.Tab.0.right" timestamp="1602915275259">
+      <screen x="-1920" y="23" width="1920" height="1004" />
+    </state>
+    <state width="1867" height="262" key="GridCell.Tab.0.right/0.23.1680.1027/-1920.23.1920.1004@-1920.23.1920.1004" timestamp="1602915275259" />
   </component>
 </project>
