@@ -1,20 +1,20 @@
 <div class='c-tags-list-container'>
   <div class='o-grid'>
     <div class='o-grid__col o-grid__col--full'>
-      {{#tags visibility="internal"}}
+      {{#get 'tags' limit='all'}}
         <div class='c-tags-list-wrap'>
           <ul class='c-tags-list o-plain-list dragscroll'>
             <li class='c-tags-list__item'>
               <a href='/' class='c-tags-list__link'>{{t 'Latest' }}</a>
             </li>
-            {{#foreach tags}}
+            {{#foreach tags visibility="internal"}}
               <li class='c-tags-list__item'>
                 <a href='{{ url }}' class='c-tags-list__link'>{{ name }}</a>
               </li>
             {{/foreach}}
           </ul>
         </div>
-      {{/tags}}
+      {{/get}}
     </div>
   </div>
 </div>
