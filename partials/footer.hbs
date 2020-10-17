@@ -8,26 +8,31 @@
 
     {{#if @site.secondary_navigation}}
       <div class='o-grid__col o-grid__col--initial-grow o-grid__col--4-4-s o-grid__col--2-4-m o-grid__col--1-3-l c-footer__section'>
-        <p class='c-footer__headline'>{{t 'Navigation' }}</p>
+        <p class='c-footer__headline'>{{t 'About' }}</p>
         <ul class='c-footer-list o-plain-list'>
           {{ navigation type='secondary' }}
         </ul>
       </div>
     {{/if}}
 
-    {{#if @labs.members}}
-      {{#unless @member}}
-        <div class='o-grid__col o-grid__col--initial-grow o-grid__col--4-4-s o-grid__col--2-4-m o-grid__col--1-3-l c-footer__section'>
-          <p class='c-footer__headline'>{{t 'Newsletters' }}</p>
-          {{> subscribe-form inputLabel='subscribe-email-footer'}}
-        </div>
-      {{/unless}}
-    {{/if}}
+    <div class='o-grid__col o-grid__col--initial-grow o-grid__col--4-4-s o-grid__col--2-4-m o-grid__col--1-3-l c-footer__section'>
+      <p class='c-footer__headline'>{{t 'Social' }}</p>
+      <ul class='c-footer-list o-plain-list'>
+        <li class="c-nav__item">
+          <a href="https://www.linkedin.com/in/hackemate/" target="_blank" class="nav__link">Linkedin</a>
+          <a href="https://github.com/hackemateninja" target="_blank" class="nav__link">Github</a>
+          <a href="https://www.instagram.com/hackemateninja/" target="_blank" class="nav__link">Instagram</a>
+          <a href="https://www.youtube.com/c/hackemateninja" class="nav__link">Youtube</a>
+          <a href="https://www.tiktok.com/@hackemateninja" target="_blank" class="nav__link">tik tok</a>
+          <a href="https://twitter.com/Hackemateninja" target="_blank" class="nav__link">twitter</a>
+        </li>
+      </ul>
+    </div>
 
     <div class='o-grid__col o-grid__col--4-4-s c-footer__section'>
       <div class='u-type-xs c-footer__copyright'>
         &copy; {{ date format='YYYY' }} {{ @site.title }} -
-        {{{t 'Published with {ghostLink} & {themeLink}' ghostLink='<a href=\'https://ghost.org\'>Ghost</a>' themeLink='<a href=\'https://aspirethemes.com/themes/krabi\'>Krabi</a>' }}}
+        {{{t 'Published with {ghostLink} & {themeLink}' ghostLink='<a href=\'https://ghost.org\'>Ghost</a>' themeLink='<a href=\'https://bushidolabs.io\'>Bushido Labs</a>' }}}
       </div>
     </div>
 
