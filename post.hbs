@@ -38,7 +38,7 @@
     {{/if}}
 
     {{#if @labs.members}}
-      {{#if @member}}
+      {{#if @member.paid}}
         {{> disqus}}
       {{else}}
         {{> post-comment-upgrade-cta }}

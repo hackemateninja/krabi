@@ -1,6 +1,6 @@
 <div class='c-member-plans'>
   {{#unless @member}}
-    <div class='c-member-plan c-member-plan--free'>
+    <div class='c-member-plan c-member-plan--premium'>
       <header class='c-member-plan__header'>
         <h2 class='c-member-plan__title'>{{t 'Free'}}</h2>
         <span class='c-member-plan__sign'>{{ @price.currency_symbol }}</span>
@@ -9,7 +9,6 @@
       <div class='c-member-plan__content'>
         <ul class='c-member-plan__list'>
           <li>Newsletter access</li>
-          <li>Access to comment into free posts</li>
         </ul>
         <a class='c-btn c-btn--action' href='/signup/'>{{t 'Choose this plan'}}</a>
       </div>
