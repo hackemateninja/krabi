@@ -37,13 +37,15 @@
       {{/unless}}
     {{/if}}
 
-    {{#if @labs.members}}
-      {{#if @member.paid}}
-        {{> disqus}}
-      {{else}}
-        {{> post-comment-upgrade-cta }}
-      {{/if}}
+    {{> commento}}
+
+  {{!--#if @labs.members}}
+    {{#if @member.paid}}
+      {{> commento}}
+    {{else}}
+      {{> post-comment-upgrade-cta }}
     {{/if}}
+  {{/if--}}
   {{!-- If the post is published for subscribers and paid members and the user is not one of those, show the upgrade box --}}
   {{else}}
     {{> post-upgrade-cta }}
