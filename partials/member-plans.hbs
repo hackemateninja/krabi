@@ -1,6 +1,6 @@
 <div class='c-member-plans'>
   {{#unless @member}}
-    <div class='c-member-plan c-member-plan--premium'>
+    <div class='c-member-plan c-member-plan--free'>
       <header class='c-member-plan__header'>
         <h2 class='c-member-plan__title'>{{t 'Free'}}</h2>
         <span class='c-member-plan__sign'>{{ @price.currency_symbol }}</span>
@@ -10,7 +10,7 @@
         <ul class='c-member-plan__list'>
           <li>Newsletter access</li>
         </ul>
-        <a class='c-btn c-btn--action' href='/signup/'>{{t 'Choose this plan'}}</a>
+        <a class='c-btn c-btn--outline' href='/signup/'>{{t 'Choose this plan'}}</a>
       </div>
     </div>
   {{/unless}}
@@ -29,7 +29,7 @@
         <li>Access to comment into all posts, katas and lessons</li>
         <li>Simple secure payment, cancel whenever you want</li>
       </ul>
-      <a class='c-btn c-btn--outline-white' href='javascript:void(0)' data-members-plan='Monthly'>{{t 'Choose this plan'}}</a>
+      <a class='c-btn c-btn--action' href='javascript:void(0)' data-members-plan='Monthly'>{{t 'Choose this plan'}}</a>
     </div>
   </div>
 
@@ -44,7 +44,7 @@
         <li>All monthly benefits included</li>
         <li>$240 off</li>
       </ul>
-      <a class='c-btn c-btn--outline-white' href='javascript:void(0)' data-members-plan='Yearly'>{{t 'Choose this plan'}}</a>
+      <a class='c-btn c-btn--action' href='javascript:void(0)' data-members-plan='Yearly'>{{t 'Choose this plan'}}</a>
     </div>
   </div>
 </div>

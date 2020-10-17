@@ -28,11 +28,11 @@
   border: half($space-8) solid var(--color-border);
 
   &--free {
-    border: half($space-8) solid var(--color-brand);
+    border: half($space-8) solid var(--bg-dark);
   }
 
   &--premium {
-    border: half($space-8) solid var(--color-white);
+    border: half($space-8) solid var(--color-brand);
   }
 
   &__header {
