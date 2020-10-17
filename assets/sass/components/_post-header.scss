@@ -1,0 +1,109 @@
+/*------------------------------------*\
+  Components > Post Hero
+\*------------------------------------*/
+
+.c-post-image-wrap {
+  position: relative;
+  margin-bottom: $space-32;
+  background-color: var(--bg-gray);
+  box-shadow: -8px 16px 24px -8px rgba(0, 0, 0, .08);
+
+  &:after {
+    content: '';
+    display: block;
+    height: 0;
+    width: 100%;
+    padding-bottom: 56.25%;
+  }
+}
+
+.c-post-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.c-post-header {
+  margin-bottom: $space-32;
+
+  &__title {
+    margin-bottom: 0;
+    font-size: $type--h-sm;
+    line-height: $type--h-sm-lh;
+
+    @include mq($from: tablet) {
+      font-size: $type--h-md;
+      line-height: $type--h-md-lh;
+    }
+
+    @include mq($from: desktop) {
+      font-size: $type--h-lg;
+      line-height: $type--h-lg-lh;
+    }
+  }
+
+  &__excerpt {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: $space-16;
+    color: var(--color-gray);
+    font-size: $type--h-xxs;
+    line-height: $type--h-xxs-lh;
+
+    @include mq($from: desktop) {
+      font-size: $type--h-xs;
+      line-height: $type--h-xs-lh;
+    }
+  }
+
+  &__meta {
+    margin-top: $space-32;
+    font-size: $type-xs;
+    line-height: $type-xs-lh;
+    letter-spacing: $global-letter-spacing;
+
+    @include mq($from: tablet) {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &__author {
+    display: flex;
+    align-items: center;
+
+    @include attention() {
+      .c-post-card__author_name {
+        color: var(--color-text);
+      }
+    }
+
+    &_name {
+      font-weight: $type-600;
+      transition: color $global-faster-transition;
+    }
+  }
+
+  &__date {
+    font-size: $type-xs;
+    line-height: $type-xs-lh;
+  }
+
+  &__author_media {
+    width: $space-40;
+    height: $space-40;
+    border-radius: 100%;
+    margin-right: $space-8;
+    background-color: var(--bg-white);
+  }
+
+  &__author_image {
+    width: $space-40;
+    height: $space-40;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+}

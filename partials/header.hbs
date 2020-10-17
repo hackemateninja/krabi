@@ -1,0 +1,51 @@
+<header class='c-header'>
+
+  <div class='o-grid o-grid--center'>
+    <div class='o-grid__col'>
+      <div class='c-header__inner'>
+        <div class='c-logo'>
+          {{#if @site.logo}}
+            <a href='{{ @site.url }}'>
+              <img class='c-logo__img' src='{{ @site.logo }}' alt='{{ @site.title }}'>
+            </a>
+          {{else}}
+            <a class='c-logo__link' href='{{ @site.url }}'>{{ @site.title }}</a>
+          {{/if}}
+        </div>
+
+        <div class='c-nav-wrap'>
+          <ul class='c-nav c-nav--left o-plain-list'>
+            {{ navigation }}
+          </ul>
+
+          <ul class='c-nav c-nav--right  o-plain-list'>
+            <li class='c-nav__item'>
+              <a href='#' class='c-nav__link toggle-search-button js-search-toggle' aria-label='{{t 'Search' }}'>
+                <div class='c-nav__icon-search'>
+                  {{> search-icon }}
+                </div>
+                <span>{{t 'Search' }}</span>
+              </a>
+            </li>
+            {{#if @labs.members}}
+              {{#if @member}}
+                <li class='c-nav__item'><a href='/account/' class='c-nav__link'>{{t 'Account' }}</a></li>
+                <li class='c-nav__item'><a href='/#signout' class='c-nav__link' data-members-signout>{{t 'Log Out' }}</a></li>
+              {{else}}
+                <li class='c-nav__item'><a href='/signin/' class='c-btn c-btn--small c-btn--outline'>{{t 'Log In' }}</a></li>
+                <li class='c-nav__item'><a href='/subscribe/' class='c-btn c-btn--small c-btn--action'>{{t 'Subscribe' }}</a></li>
+              {{/if}}
+            {{/if}}
+          </ul>
+        </div>
+
+        <div class='js-nav-toggle c-nav-toggle'>
+          <span class='c-nav-toggle__icon'></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+
+{{> search-form }}

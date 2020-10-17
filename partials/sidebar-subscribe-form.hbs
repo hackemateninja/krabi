@@ -1,0 +1,11 @@
+{{#if @labs.members}}
+  {{#unless @member}}
+    <div class='c-widget'>
+      <div class='c-subscribe'>
+        <h3 class='u-type-500 u-mb-8'>{{t '{siteTitle} Newsletter' siteTitle=@site.title}}</h3>
+        <p class='u-type-500 u-mb-16'>{{t 'Join the newsletter to receive the latest updates in your inbox.' }}</p>
+        {{> subscribe-form inputLabel='subscribe-email-sidebar'}}
+      </div>
+    </div>
+  {{/unless}}
+{{/if}}

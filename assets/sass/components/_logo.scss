@@ -1,0 +1,23 @@
+/*------------------------------------*\
+  Components > Logo
+\*------------------------------------*/
+
+.c-logo {
+  margin-right: $space-32;
+
+  &__link {
+    display: block;
+    line-height: 1;
+    font-weight: $type-700;
+    font-size: double($type-xs);
+    transition: color $global-faster-transition ease-in-out;
+
+    @include attention() {
+      color: var(--color-brand);
+    }
+  }
+
+  &__img {
+    max-width: $space-96;
+  }
+}

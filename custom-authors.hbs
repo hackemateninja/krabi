@@ -1,0 +1,15 @@
+{{!< default}}
+
+{{#post}}
+
+<div class='c-archive'>
+  <h1 class='c-archive__title'>{{ title }}</h1>
+</div>
+
+{{#get 'authors' limit='all' include='count.posts' order='count.posts desc'}}
+  {{#foreach authors}}
+    {{> card-author-mini }}
+  {{/foreach}}
+{{/get}}
+
+{{/post}}

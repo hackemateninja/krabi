@@ -1,0 +1,104 @@
+/*------------------------------------*\
+  Components > Member Plan
+\*------------------------------------*/
+
+@include mq($from: desktop) {
+  .c-member-plans {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+  }
+
+  .c-member-plan {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .c-member-plan + .c-member-plan {
+    margin-left: $space-40;
+  }
+}
+
+.c-member-plan {
+  padding: $space-32;
+  margin-bottom: $space-32;
+  background-color: var(--bg-white);
+  border-radius: $global-border-radius;
+  border: half($space-8) solid var(--color-border);
+
+  &--free {
+    border: half($space-8) solid var(--color-brand);
+  }
+
+  &--premium {
+    border: half($space-8) solid var(--bg-dark);
+  }
+
+  &__header {
+    position: relative;
+    padding-bottom: $space-24;
+    color: var(--color-gray);
+    text-align: center;
+  }
+
+  &__title {
+    margin-bottom: $space-16;
+    color: var(--color-text);
+    font-size: $type--h-xxs;
+    line-height: $type--h-xxs-lh;
+    font-weight: $type-700;
+  }
+
+  &__sign {
+    vertical-align: top;
+    margin-top: half($space-8);
+    display: inline-block;
+    font-size: $type-lg;
+    line-height: $type-lg-lh;
+    font-weight: $type-600;
+  }
+
+  &__amount {
+    font-size: $type--h-lg;
+    line-height: $type--h-lg-lh;
+    color: var(--color-brand);
+  }
+
+  &__content {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    margin-bottom: $space-32;
+    list-style: none;
+
+    li {
+      position: relative;
+      font-size: $type-xs;
+      line-height: $type-xs-lh;
+      font-weight: $type-500;
+      padding: 0 0 $space-16 $space-24;
+
+      &:before {
+        display: block;
+        position: absolute;
+        content: '✓';
+        left: 0;
+        top: - half($space-8);
+        font-size: $type-sm;
+        line-height: $type-sm-lh;
+        font-weight: $type-800;
+      }
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+  }
+}

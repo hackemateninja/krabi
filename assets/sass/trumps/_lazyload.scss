@@ -1,0 +1,13 @@
+/*------------------------------------*\
+  Trumbs > Lazyload
+\*------------------------------------*/
+
+.lazyload,
+.lazyloading {
+	opacity: 0;
+}
+
+.lazyloaded {
+	opacity: 1;
+  transition: opacity $global-transition ease;
+}

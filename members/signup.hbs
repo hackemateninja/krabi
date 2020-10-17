@@ -1,0 +1,37 @@
+{{!< ../default-wide}}
+
+<div class='o-grid__col o-grid__col--center o-grid__col--3-4-m o-grid__col--2-3-l'>
+  {{#if @member.paid}}
+    {{!-- Logged in, paying member: Redirect home --}}
+    <script>window.location = '{{@site.url}}';</script>
+
+  {{else if @member}}
+    <div class='c-archive'>
+      <h1 class='c-archive__title'>{{t 'Choose your subscription'}}</h1>
+      <p class='c-archive__description'>{{t 'Unlock full access to {siteTitle} and see the entire library of members-only content & updates.' siteTitle=@site.title}}</p>
+    </div>
+
+    {{> member-plans }}
+  {{else}}
+    {{!-- Not logged in: Sign up --}}
+    <div class='c-archive'>
+      <h1 class='c-archive__title'>{{t 'Subscribe to {siteTitle}' siteTitle=@site.title}}</h1>
+      <p class='c-archive__description'></p>
+    </div>
+
+    <div class='u-bg-white u-border u-border-radius u-p-32'>
+      <form data-members-form='subscribe' class='c-subscribe-form c-subscribe-form--compact'>
+        <div class='form-group'>
+          <label for='subscribe-email-subscribe' class='u-hidden-visually'>{{t 'Your email address' }}</label>
+          <input type='email' name='email' class='c-subscribe-form__input' id='subscribe-email-subscribe' placeholder='{{t 'Your email address' }}' required data-members-email>
+          <button type='submit' class='c-btn c-btn--action c-subscribe-form__btn'>{{t 'Subscribe' }}</button>
+        </div>
+
+        <div class='c-alert c-alert--success'>{{t 'Please check your inbox and click the link to confirm your subscription.' }}</div>
+        <div class='c-alert c-alert--invalid'>{{t 'Please enter a valid email address!' }}</div>
+        <div class='c-alert c-alert--error'>{{t 'An error occurred, please try again later.' }}</div>
+      </form>
+      <p class='u-type-xs u-mt-16'>{{t 'Already have an account?' }} <a href='/signin/' class='u-link'>{{t 'Log In' }}</a></p>
+    </div>
+  {{/if}}
+</div>

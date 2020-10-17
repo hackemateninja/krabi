@@ -1,0 +1,79 @@
+{
+  "Loading": "Cargando",
+  "More Posts": "Más Artículos",
+
+  "Recent Posts": "Reciente Artículos",
+  "Featured Posts": "Publicaciones destacadas",
+  "Page Not Found": "Página no encontrada",
+  "You might also like": "Te podría interesar",
+  "Latest": "Latest",
+  "Authors": "auteurs",
+  "Navigation": "Navegación",
+  "Published with {ghostLink} & {themeLink}": "Publicado con {ghostLink} & {themeLink}",
+
+  "Share on Twitter": "Compartir en Twitter",
+  "Share on Facebook": "Compartir en Facebook",
+  "Share on LinkedIn": "Compartir en LinkedIn",
+  "Share on Pinterest": "Compartir en Pinterest",
+  "Share via Email": "Compartir via Email",
+  "Copy link": "Copiar link",
+  "Link copied to clipboard": "Enlace copiado al portapapeles",
+
+  "Search": "Buscar",
+  "Search {siteTitle}": "Buscar {siteTitle}",
+  "Type to Search": "Escribe para buscar",
+
+  "Paid": "Pagada",
+  "Members": "Miembros",
+  "Public": "Público",
+
+  "Account": "Cuenta",
+  "Log In": "Registrarse",
+  "Log Out": "Cerrar sesión",
+  "Continue": "Hacer continuación",
+  "Subscribe": "Suscríbete",
+  "Subscribe Now": "Suscríbase ahora",
+  "Your email address": "Tu correo electrónico",
+  "Please check your inbox and click the link to confirm your subscription.": "Verifique su bandeja de entrada y haga clic en el enlace para confirmar su suscripción.",
+  "Please enter a valid email address!": "Por favor, introduce una dirección de correo electrónico válida!",
+  "An error occurred, please try again later.": "Se produjo un error. Vuelve a intentarlo más tarde.",
+
+  "You've successfully subscribed to {siteTitle}": "Te has suscrito correctamente a {siteTitle}",
+  "Great! Next, complete checkout for full access to {siteTitle}": "¡Excelente! A continuación, complete el pago para obtener acceso completo a {siteTitle}",
+  "Welcome back! You've successfully signed in.": "¡Dar una buena acogida! Has iniciado sesión correctamente.",
+  "Success! Your account is fully activated, you now have access to all content.": "¡Éxito! Su cuenta está completamente activada, ahora tiene acceso a todo el contenido.",
+  "Success! Your billing info is updated.": "¡Éxito! Su información de facturación se actualiza.",
+  "Billing info update failed.": "La actualización de la información de facturación ha fallado.",
+
+  "Already have an account?": "¿Ya tienes una cuenta?",
+  "Don't have an account yet?": "¿Aún no tienes una cuenta?",
+
+  "This post is for paying subscribers only": "Esta publicación es solo para suscriptores de pago",
+  "This post is for subscribers only": "Esta publicación es solo para suscriptores",
+  "This page is for paying subscribers only": "Esta página es solo para suscriptores de pago",
+  "This page is for subscribers only": "Esta página es solo para suscriptores",
+
+  "Join the newsletter to receive the latest updates in your inbox.": "Únase al boletín para recibir las últimas actualizaciones en su bandeja de entrada.",
+
+  "Choose your subscription": "Elige tu suscripción",
+  "Unlock full access to {siteTitle} and see the entire library of members-only content & updates.": "Desbloquee el acceso completo a {siteTitle} y vea toda la biblioteca de contenido y actualizaciones solo para miembros.",
+  "Subscribe to {siteTitle}": "Regístrese en {siteTitle}",
+  "Choose this plan": "Elige este plan",
+  "Monthly": "Mensual",
+  "Yearly": "Anual",
+
+  "Welcome back!": "¡Dar una buena acogida!",
+  "Log Into your account again.": "Inicie sesión en su cuenta nuevamente.",
+  "Send login link": "Login",
+
+  "Nice, you're a subscriber!": "¡Bien, eres suscriptor!",
+  "Your subscription will expire on": "Su suscripción caducará el",
+  "Your plan": "Tu plan",
+  "Card": "Tarjeta",
+  "Expires": "Expira",
+  "Next bill date": "Fecha de la próxima factura",
+  "Edit billing info": "Editar información de facturación",
+  "You have an active {siteTitle} account with access to all posts.": "Tiene una cuenta activa {siteTitle} con acceso a todas las publicaciones.",
+  "You're a subscriber to free members updates": "Eres suscriptor de actualizaciones gratuitas para miembros",
+  "You are subscribed to free updates from {siteTitle}, but don't have a paid subscription to read all the posts.": "Está suscrito a actualizaciones gratuitas de {siteTitle}, pero no tiene una suscripción paga para leer todas las publicaciones."
+}

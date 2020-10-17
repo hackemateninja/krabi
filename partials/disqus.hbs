@@ -1,0 +1,22 @@
+<section id='disqus_thread' class='u-bg-white u-border u-border-radius u-p-32'></section>
+<script>
+  var disqus_shortname = 'aspirethemes-demos'; // required: replace `aspirethemes-demos` with your Disqus shortname
+
+  // DON'T EDIT BELOW THIS LINE
+  var disqus_config = function () {
+    this.page.url ='{{url absolute="true"}}'
+    this.page.identifier = 'ghost-{{comment_id}}';
+  };
+
+  function disqus() {
+    var d = document,
+        s = d.createElement('script');
+
+    s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', + new Date());
+
+    (d.head || d.body).appendChild(s);
+  }
+
+  disqus();
+</script>

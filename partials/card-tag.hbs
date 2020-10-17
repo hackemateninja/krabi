@@ -1,0 +1,20 @@
+<div class='o-grid__col o-grid__col--initial-grow o-grid__col--4-4-s o-grid__col--2-4-m c-tag-card-wrap'>
+  <div class='c-tag-card'>
+    {{#if feature_image}}
+      <div class='c-tag-card__media'>
+        <div class='c-tag-card__image-wrap'>
+          <img class='c-tag-card__image lazyload' data-src='{{ img_url feature_image size='m' }}' alt='{{title}}'/>
+        </div>
+      </div>
+    {{/if}}
+
+    <div class='c-tag-card__content'>
+      <h2 class='c-tag-card__title'><a href='{{ url }}' class='c-tag-card__url'>{{ name }}</a></h2>
+      {{#if description}}
+        <p class='c-tag-card__description'>{{ description }}</p>
+      {{/if}}
+    </div>
+
+    <div class='c-tag-card__meta'>{{plural count.posts empty='No Posts' singular='% Post' plural='% Posts'}}</div>
+  </div>
+</div>

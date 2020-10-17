@@ -1,0 +1,24 @@
+{{!< default}}
+
+{{#post}}
+
+<article class='c-{{ post_class }}'>
+  {{> post-header }}
+
+  {{!-- Show the page if the user can access the post, this means that:
+  1. The page is public for anyone
+  2. The page is published for subscribers and the user is a subscriber
+  3. The page is for paid members only and the user is a paid member --}}
+  {{#if access}}
+    <section class='c-content'>
+      {{ content }}
+    </section>
+
+  {{!-- If the page is published for subscribers and paid members and the user is not one of those, show the upgrade box --}}
+  {{else}}
+    {{> page-upgrade-cta }}
+  {{/if}}
+  <hr>
+</article>
+
+{{/post}}

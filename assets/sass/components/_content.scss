@@ -1,0 +1,123 @@
+/*------------------------------------*\
+  Components > Content
+\*------------------------------------*/
+
+.c-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  word-break: break-word;
+
+  > * {
+    min-width: 100%;
+  }
+
+  > * + * {
+    margin-top: $space-32;
+  }
+
+  a {
+    color: var(--color-text);
+    text-decoration: underline;
+
+    @include attention() {
+      color: var(--color-brand);
+      text-decoration: underline;
+    }
+  }
+
+  p, pre,
+  dl, ol, ul,
+  form,
+  fieldset {
+    font-size: $type-lg;
+    line-height: $type-lg-lh;
+  }
+
+  table {
+    font-size: $type-md;
+    line-height: $type-md-lh;
+    font-family: $type-sans-serif;
+  }
+
+  hr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: half($space-8);
+    margin-bottom: 0;
+
+    &:before {
+      content: '. . .';
+      color: var(--color-text);
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: $space-48;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    + * {
+      margin-top: $space-8;
+    }
+  }
+
+  h1 {
+    font-size: $type--h-md;
+    line-height: $type--h-md-lh;
+
+    + h2, + h3, + h4, + h5, + h6 {
+      margin-top: $space-16;
+    }
+  }
+
+  h2 {
+    font-size: $type--h-sm;
+    line-height: $type--h-sm-lh;
+
+    + h3, + h4, + h5, + h6 {
+      margin-top: $space-16;
+    }
+  }
+
+  h3 {
+    font-size: $type--h-xs;
+    line-height: $type--h-xs-lh;
+
+    + h4, + h5, + h6 {
+      margin-top: $space-16;
+    }
+  }
+
+  h4 {
+    font-size: $type--h-xxs;
+    line-height: $type--h-xxs-lh;
+
+    + h5, + h6 {
+      margin-top: $space-8;
+    }
+  }
+
+  h5 {
+    font-size: $type--h-xxxs;
+    line-height: $type--h-xxxs-lh;
+
+    + h6 {
+      margin-top: $space-8;
+    }
+  }
+
+  dd, ol, ul {
+    padding-left: $space-8;
+    padding-right: $space-16;
+
+    // Target Safari Only
+    &:not(:root:root) {
+      -webkit-padding-start: $space-16;
+    }
+  }
+}

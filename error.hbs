@@ -1,0 +1,14 @@
+{{!< default}}
+
+<div class='c-archive'>
+  <h1 class='c-archive__title'>404</h1>
+  <p class='c-archive__description'>{{t 'Page Not Found' }}</p>
+</div>
+
+<div class='c-title-bar'>
+  <h3 class='c-title-bar__title'>{{t 'Recent Posts' }}</h3>
+</div>
+
+{{#get 'posts' limit='6' include='authors,tags' visibility='all'}}
+  {{> loop }}
+{{/get}}

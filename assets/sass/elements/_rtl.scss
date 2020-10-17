@@ -1,0 +1,15 @@
+/*------------------------------------*\
+  Elements > RTL Specefic Customization
+\*------------------------------------*/
+
+:lang(ar) * {
+  letter-spacing: initial !important;
+}
+
+:lang(ar) .c-nav__item {
+  font-size: $type-sm;
+}
+
+:lang(ar) .icon--ei-chevron-right .icon__cnt {
+  transform: scaleX(-1);
+}

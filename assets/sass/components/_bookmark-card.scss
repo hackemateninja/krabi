@@ -1,0 +1,121 @@
+/*------------------------------------*\
+  Components > Bookmark Card
+\*------------------------------------*/
+
+.kg-bookmark-card {
+  width: 100%;
+}
+
+a.kg-bookmark-container {
+  display: flex;
+  min-height: 144px;
+  color: var(--color-text);
+  text-decoration: none;
+  background-color: var(--bg-white);
+  border: .5px solid var(--color-border);
+
+  @include attention() {
+    text-decoration: none;
+
+    .kg-bookmark-title {
+      color: var(--color-brand);
+    }
+  }
+
+  .kg-card-hascaption & {
+    border-bottom: 1px solid var(--color-border);
+  }
+}
+
+.kg-bookmark-content {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  padding: $space-24;
+
+  @include mq($from: desktop) {
+    padding: $space-32;
+  }
+}
+
+.kg-bookmark-title {
+  font-size: $type--h-xxxs;
+  line-height: $type--h-xxxs-lh;
+  font-weight: $type-700;
+  transition: color $global-faster-transition ease-in-out;
+}
+
+.kg-bookmark-description {
+  color: var(--color-gray);
+  font-size: $type-xs;
+  line-height: $type-xs-lh;
+  font-weight: $type-500;
+  margin-top: $space-8;
+  max-height: $space-48;
+  overflow-y: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.kg-bookmark-metadata {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: $space-8;
+  color: var(--color-gray);
+  font-size: $type-xs;
+  line-height: $type-xs-lh;
+}
+
+.kg-bookmark-publisher {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 240px;
+}
+
+.kg-bookmark-icon {
+  width: $space-24;
+  height: $space-24;
+  border-radius: $space-24;
+  margin-right: $space-8;
+}
+
+.kg-bookmark-author:after {
+  content: '•';
+  margin: 0 $space-8;
+}
+
+.kg-bookmark-thumbnail {
+  position: relative;
+  min-width: 33%;
+  max-height: 100%;
+}
+
+.kg-bookmark-thumbnail img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@include mq($until: tablet) {
+  .kg-bookmark-container {
+    flex-direction: column;
+  }
+
+  .kg-bookmark-thumbnail {
+    order: 1;
+    width: 100%;
+    min-height: 160px;
+  }
+
+  .kg-bookmark-content {
+    order: 2
+  }
+}

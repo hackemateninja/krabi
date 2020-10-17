@@ -1,0 +1,22 @@
+// *----------------------------------*\
+//  Settings > Colors
+// *----------------------------------*/
+
+:root {
+  --color-brand:   #5869DA;
+  --color-white:   #FFFFFF;
+  --color-dark:    #000C2D;
+  --color-text:    #000C2D;
+  --color-gray:    #687385;
+  --color-error:   #CC3C64;
+  --color-success: #07815C;
+  --color-border:  rgba(0, 0, 0, .05);
+  --color-border:  #EAECEE;
+
+  --bg-gray:         #F5F7F9;
+  --bg-dark:         #12245A;
+  --bg-white:        var(--color-white);
+
+  --color-code-inline: var(--color-text);
+  --bg-tag-list:       linear-gradient(to left, var(--bg-white), rgba(255, 255, 255, 0));
+}

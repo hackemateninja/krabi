@@ -1,0 +1,13 @@
+// *----------------------------------*\
+// Vendor  > evil-icons Custom CSS
+// *----------------------------------*/
+
+.icon {
+  width: $space-24;
+  height: $space-24;
+
+  &--m {
+    width: $space-48;
+    height: $space-48;
+  }
+}

@@ -1,0 +1,16 @@
+/*------------------------------------*\
+  Elements > Blockquote
+\*------------------------------------*/
+
+blockquote {
+  padding: $space-24 0;
+  font-size: $type--h-xs;
+  line-height: $type--h-xs-lh;
+  border-top: $space-8 solid var(--color-brand);
+  box-shadow: 0 1px 0 0 var(--color-brand);
+
+  @include mq($from: desktop) {
+    font-size: $type--h-sm;
+    line-height: $type--h-sm-lh;
+  }
+}

@@ -1,0 +1,17 @@
+{{!< default}}
+
+{{#post}}
+
+<div class='c-archive'>
+  <h1 class='c-archive__title'>{{ title }}</h1>
+</div>
+
+<div class='o-grid'>
+  {{#get 'tags' limit='all' include='count.posts' order='count.posts desc'}}
+    {{#foreach tags}}
+      {{> card-tag }}
+    {{/foreach}}
+  {{/get}}
+</div>
+
+{{/post}}

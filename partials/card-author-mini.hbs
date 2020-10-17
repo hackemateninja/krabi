@@ -1,0 +1,12 @@
+<a class='c-card-author-mini' href='{{ url }}'>
+  {{#if profile_image}}
+    <div class='c-card-author-mini__media'>
+      <img class='c-card-author-mini__image lazyload' data-src='{{ img_url profile_image size='s' }}' alt=''>
+    </div>
+  {{/if}}
+
+  <div class='c-card-author-mini__content'>
+    <h3 class='c-card-author-mini__name'>{{ name }}</h3>
+    <p class='c-card-author-mini__bio'>{{ bio }}</p>
+  </div>
+</a>

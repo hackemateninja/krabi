@@ -1,0 +1,26 @@
+// *----------------------------------*\
+// Commento
+// *----------------------------------*/
+
+.commento-root {
+  padding: $space-32 !important;
+
+  .commento-markdown-help tr td pre {
+    padding: initial;
+    background: transparent;
+  }
+
+  blockquote {
+    border-top: 0;
+    font-weight: inherit;
+    box-shadow: none;
+  }
+
+  .commento-markdown-help tr td {
+    border: 0;
+  }
+
+  .commento-markdown-help {
+    border-collapse: initial;
+  }
+}

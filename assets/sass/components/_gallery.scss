@@ -1,0 +1,35 @@
+/*------------------------------------*\
+  Components > Koenig Gallery
+\*------------------------------------*/
+
+.kg-gallery-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.kg-gallery-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.kg-gallery-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.kg-gallery-row:not(:first-of-type) {
+  margin-top: $space-16;
+
+  @include mq($from: desktop) {
+    margin-top: $space-24;
+  }
+}
+
+.kg-gallery-image:not(:first-of-type) {
+  margin-left: $space-16;
+
+  @include mq($from: desktop) {
+    margin-left: $space-24;
+  }
+}

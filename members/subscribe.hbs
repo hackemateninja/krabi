@@ -1,0 +1,12 @@
+{{!< ../default-wide}}
+
+<div class='o-grid__col o-grid__col--center o-grid__col--3-4-m o-grid__col--2-3-l {{#unless @member}} o-grid__col--4-4-l {{/unless}}'>
+  <div class='c-archive'>
+    <h1 class='c-archive__title'>{{t 'Choose your subscription'}}</h1>
+    <p class='c-archive__description'>{{t 'Unlock full access to {siteTitle} and see the entire library of members-only content & updates.' siteTitle=@site.title}}</p>
+  </div>
+</div>
+
+<div class='o-grid__col o-grid__col--center o-grid__col--3-4-m o-grid__col--2-3-l {{#unless @member}} o-grid__col--4-4-l {{/unless}}'>
+  {{> member-plans }}
+</div>

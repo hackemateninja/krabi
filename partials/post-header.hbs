@@ -1,0 +1,32 @@
+{{#if feature_image}}
+  <figure class='c-post-image-wrap'>
+    <img class='c-post-image lazyload' data-src='{{ img_url feature_image }}' alt=''>
+  </figure>
+{{/if}}
+
+<header class='c-post-header'>
+  <h1 class='c-post-header__title'>{{ title }}</h1>
+
+  {{#if custom_excerpt}}
+    <p class='c-post-header__excerpt'>{{ custom_excerpt }}</p>
+  {{/if}}
+
+  {{#is 'post'}}
+    <div class='c-post-header__meta'>
+      {{#primary_author}}
+        <a href='{{ url }}' class='c-post-header__author'>
+          {{#if profile_image}}
+            <div class='c-post-header__author_media'>
+              <img class='c-post-header__author_image lazyload' data-src='{{ img_url profile_image size='s' }}' alt='{{ name }}'>
+            </div>
+          {{/if}}
+          <div class='c-post-header__author_info'>
+            <div class='c-post-header__author_name'>{{ name }}</div>{{/primary_author}}
+            <time class='c-post-header__date' datetime='{{ date format='YYYY-MM-DD' }}' title='{{ date format='DD MMMM YYYY' }}'>{{ date format='DD MMM YYYY' }}</time>
+          </div>
+        </a>
+
+      {{> share }}
+    </div>
+  {{/is}}
+</header>

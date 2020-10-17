@@ -1,0 +1,11 @@
+/*------------------------------------*\
+  Trumbs > Links
+\*------------------------------------*/
+
+.u-link {
+  color: var(--color-brand);
+
+  @include attention() {
+    text-decoration: underline;
+  }
+}

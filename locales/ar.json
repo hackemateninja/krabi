@@ -1,0 +1,79 @@
+{
+  "Loading": "جار التحميل",
+  "More Posts": "تحميل المزيد",
+
+  "Recent Posts": "المشاركات الاخيرة",
+  "Featured Posts": "المشاركات المميزة",
+  "Page Not Found": "الصفحة غير موجودة",
+  "You might also like": "مواضيع متشابهه",
+  "Latest": "آخر التدوينات",
+  "Authors": "المؤلفون",
+  "Navigation": "التنقل",
+  "Published with {ghostLink} & {themeLink}": "نشرت مع {ghostLink} & {themeLink}",
+
+  "Share on Twitter": "انشر على تويتر",
+  "Share on Facebook": "انشر على الفيسبوك",
+  "Share on LinkedIn": "انشر على لينكد إن",
+  "Share on Pinterest": "انشر على بينترست",
+  "Share via Email": "انشر على الإيميل",
+  "Copy link": "انسخ الرابط",
+  "Link copied to clipboard": "تم نسخ الرابط",
+
+  "Search": "بحث",
+  "Search {siteTitle}": "بحث {siteTitle}",
+  "Type to Search": "اكتب للبحث",
+
+  "Paid": "مدفوع",
+  "Members": "للأعضاء",
+  "Public": "عام",
+
+  "Account": "الحساب",
+  "Log In": "تسجيل الدخول",
+  "Log Out": "Log Out",
+  "Continue": "استمر",
+  "Subscribe": "إشترك",
+  "Subscribe Now": "إشترك الآن",
+  "Your email address": "عنوان بريدك الإلكتروني",
+  "Please check your inbox and click the link to confirm your subscription.": "يرجى التحقق من صندوق الوارد الخاص بك والنقر على الرابط لتأكيد اشتراكك.",
+  "Please enter a valid email address!": "من فضلك أدخل بريد أليكترونى صحيح!",
+  "An error occurred, please try again later.": "لقد حدث خطأ، رجاء أعد المحاولة لاحقا.",
+
+  "You've successfully subscribed to {siteTitle}": "لقد اشتركت بنجاح في {siteTitle}",
+  "Great! Next, complete checkout for full access to {siteTitle}": "عظيم! بعد ذلك ، أكمل عملية الدفع للوصول الكامل إلى {siteTitle}",
+  "Welcome back! You've successfully signed in.": "مرحبا بعودتك! لقد نجحت في تسجيل الدخول.",
+  "Success! Your account is fully activated, you now have access to all content.": "نجاح! تم تنشيط حسابك بالكامل ، يمكنك الآن الوصول إلى جميع المحتويات.",
+  "Success! Your billing info is updated.": ".تم تحديث معلومات الفواتير الخاصة بك",
+  "Billing info update failed.": "فشل تحديث معلومات الفواتير.",
+
+  "Already have an account?": "هل لديك حساب؟",
+  "Don't have an account yet?": "لا تملك حسابا حتى الآن؟",
+
+  "This post is for paying subscribers only": "هذه المشاركة للمشتركين في باقة فقط",
+  "This post is for subscribers only": "هذا المنشور مخصص للمشتركين فقط",
+  "This page is for paying subscribers only": "هذه المشاركة للمشتركين في باقة فقط",
+  "This page is for subscribers only": "هذا المنشور مخصص للمشتركين فقط",
+
+  "Join the newsletter to receive the latest updates in your inbox.": "انضم إلى النشرة الإخبارية لتلقي آخر التحديثات.",
+
+  "Choose your subscription": "اختر اشتراكك",
+  "Unlock full access to {siteTitle} and see the entire library of members-only content & updates.": "افتح الوصول الكامل إلى {siteTitle} وشاهد المكتبة الكاملة للمحتوى والتحديثات للأعضاء فقط.",
+  "Subscribe to {siteTitle}": "سجل في {siteTitle}",
+  "Choose this plan": "اختر هذه الخطة",
+  "Monthly": "شهريا",
+  "Yearly": "سنوي",
+
+  "Welcome back!": "مرحبا بعودتك!",
+  "Log Into your account again.": "تسجيل الدخول إلى حسابك مرة أخرى.",
+  "Send login link": "إرسال رابط تسجيل الدخول",
+
+  "Nice, you're a subscriber!": "جميل ، أنت مشترك!",
+  "Your subscription will expire on": "سوف تنتهي صلاحية اشتراكك في",
+  "Your plan": "خطتك",
+  "Card": "بطاقة",
+  "Expires": "تنتهي الصلاحية",
+  "Next bill date": "تاريخ الفاتورة التالية",
+  "Edit billing info": "تحرير معلومات الفواتير",
+  "You have an active {siteTitle} account with access to all posts.": "لديك حساب {siteTitle} نشط له حق الوصول إلى جميع المشاركات.",
+  "You're a subscriber to free members updates": "أنت مشترك في تحديثات الأعضاء المجانية",
+  "You are subscribed to free updates from {siteTitle}, but don't have a paid subscription to read all the posts.": "أنت مشترك في تحديثات مجانية من {siteTitle} ، ولكن ليس لديك اشتراك مدفوع لقراءة جميع المشاركات."
+}

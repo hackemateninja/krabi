@@ -1,0 +1,17 @@
+/*------------------------------------*\
+  Components > Header
+\*------------------------------------*/
+
+.c-header {
+  position: relative;
+  padding: ($space-16 + half($space-8)) 0;
+  background-color: var(--bg-white);
+  border-bottom: .5px solid var(--color-border);
+
+  &__inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

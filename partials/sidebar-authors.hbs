@@ -1,0 +1,11 @@
+<div class='c-widget'>
+  <div class='c-title-bar'>
+    <h3 class='c-title-bar__title'><a href='{{ @site.url }}/authors' class='c-title-bar__link'>{{t 'Authors'}} →</a></h3>
+  </div>
+
+  {{#get 'authors' limit='3' include='count.posts' order='count.posts desc'}}
+    {{#foreach authors}}
+      {{> card-author-mini }}
+    {{/foreach}}
+  {{/get}}
+</div>

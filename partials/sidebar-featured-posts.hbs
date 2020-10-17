@@ -1,0 +1,13 @@
+{{#get 'posts' filter='featured:true' limit='3' as |posts|}}
+  {{#if posts}}
+    <div class='c-widget'>
+      <div class='c-title-bar'>
+        <h3 class='c-title-bar__title'>{{t 'Featured Posts'}}</h3>
+      </div>
+
+      {{#foreach posts visibility='all'}}
+        {{> teaser }}
+      {{/foreach}}
+    </div>
+  {{/if}}
+{{/get}}

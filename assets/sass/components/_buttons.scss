@@ -1,0 +1,96 @@
+/*------------------------------------*\
+  Components > Buttons
+\*------------------------------------*/
+
+.c-btn {
+  display: inline-block;
+  padding: $space-16 $space-32;
+  color: var(--color-white);
+  background-color: var(--color-dark);
+  font-size: $type-xs;
+  line-height: $type-xs-lh;
+  font-weight: $type-600;
+  font-family: $type-sans-serif;
+  letter-spacing: $global-letter-spacing;
+  text-align: center;
+  text-transform: initial;
+  white-space: nowrap;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: $global-border-radius;
+  transition: all $global-faster-transition ease-in-out;
+
+  @include attention() {
+    opacity: .9;
+    text-decoration: none;
+  }
+
+  &--disabled {
+    opacity: .5;
+    cursor: not-allowed;
+  }
+
+  &--full {
+    width: 100%;
+  }
+
+  &--fit-content {
+    width: fit-content;
+  }
+
+  &--small {
+    padding: $space-8 $space-16;
+  }
+
+  &--outline {
+    color: var(--color-brand);
+    background-color: var(--bg-white);
+    box-shadow: inset 0 0 0 1px var(--color-brand);
+
+    @include attention() {
+      color: var(--color-white);
+      background-color: var(--color-brand);
+    }
+  }
+
+  &--action {
+    color: var(--color-white);
+    background-color: var(--color-brand);
+  }
+
+  &--danger {
+    color: var(--color-white);
+    background-color: var(--color-error);
+  }
+
+  &--dark {
+    color: var(--color-white);
+    background-color: var(--bg-dark);
+  }
+
+  &.loading,
+  &--loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @-webkit-keyframes spin {
+      0%   {   -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+
+    &:after {
+      margin-left: $space-8;
+      content: '';
+      display: block;
+      height: $space-16;
+      width: $space-16;
+      border: 2px solid var(--color-white);
+      border-radius: 100%;
+      border-right-color: transparent;
+      border-top-color: transparent;
+      animation: spin $global-transition infinite linear;
+    }
+  }
+}

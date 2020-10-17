@@ -1,0 +1,59 @@
+/*------------------------------------*\
+  Components > Editor Cards
+\*------------------------------------*/
+
+// Koenig Editor
+
+.kg-embed-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  > * {
+    width: 100%;
+  }
+}
+
+.kg-card figcaption {
+  width: 100%;
+  text-align: center;
+  padding: $space-16;
+  color: var(--color-gray);
+  font-size: $type-xs;
+  line-height: $type-xs-lh;
+  font-weight: $type-600;
+  letter-spacing: $global-letter-spacing;
+  background-color: var(--bg-white);
+}
+
+.kg-image {
+  margin: auto;
+}
+
+.kg-width-wide,
+.kg-width-full {
+  width: 100%;
+}
+
+// Twitter Card
+
+.twitter-tweet {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  overflow: hidden !important;
+  width: 100% !important;
+
+  + script + figcaption {
+    background-color: var(--bg-gray);
+  }
+}
+
+// Instagram Card
+
+.instagram-media {
+  margin-bottom: 0 !important;
+
+  + script + figcaption {
+    background-color: var(--bg-gray);
+  }
+}

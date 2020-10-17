@@ -1,0 +1,54 @@
+<div class='c-post-card js-post-card {{ post_class }}'>
+  {{#if feature_image}}
+    <div class='c-post-card__media'>
+      <div class='c-post-card__image-wrap'>
+        <img
+          alt='{{title}}'
+          class='c-post-card__image lazyload'
+          data-srcset='
+            {{ img_url feature_image size='s' }} 320w,
+            {{ img_url feature_image size='m' }} 640w,
+            {{ img_url feature_image size='l' }} 1024w
+        '
+          data-src='{{ img_url feature_image size='l' }}'
+        />
+      </div>
+    </div>
+  {{/if}}
+
+  <div class='c-post-card__content'>
+    <h2 class='c-post-card__title'>
+      <a href='{{ url }}' class='c-post-card__url'>{{ title }}</a>
+
+      {{#if @labs.members}}
+        <div class='c-post-card__visibility c-post-card__visibility--{{ visibility }}'>
+          <span class='paid'>{{t 'Paid' }}</span>
+          <span class='members'>{{t 'Members' }}</span>
+          <span class='public'>{{t 'Public' }}</span>
+        </div>
+      {{/if}}
+    </h2>
+
+    <p class='c-post-card__excerpt'>{{ excerpt }}</p>
+
+    <div class='c-post-card__meta'>
+      {{#primary_author}}
+        <a href='{{ url }}' class='c-post-card__author'>
+          {{#if profile_image}}
+            <div class='c-post-card__author_media'>
+              <img class='c-post-card__author_image lazyload' data-src='{{ img_url profile_image size='s' }}' alt='{{ name }}'>
+            </div>
+          {{/if}}
+          <div class='c-post-card__author_info'>
+            <div class='c-post-card__author_name'>{{ name }}</div>{{/primary_author}}
+            <time class='c-post-card__date' datetime='{{ date format='YYYY-MM-DD' }}' title='{{ date format='DD MMMM YYYY' }}'>{{ date format='DD MMM YYYY' }}</time>
+          </div>
+        </a>
+
+      <div class='c-post-card__tag'>
+        {{ tags separator=' / ' limit='1' }}
+      </div>
+    </div>
+
+  </div>
+</div>

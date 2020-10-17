@@ -1,0 +1,50 @@
+{{!< default}}
+
+{{#post}}
+
+<article class='c-{{ post_class }}'>
+  {{> post-header }}
+
+  {{!-- Show the post if the user can access the post, this means that:
+  1. The post is public for anyone
+  2. The post is published for subscribers and the user is a subscriber
+  3. The post is for paid members only and the user is a paid member --}}
+  {{#if access}}
+    <section class='c-content'>
+      {{ content }}
+    </section>
+
+    {{#if tags}}
+      <section class='c-tags'>
+        {{ tags separator='' }}
+      </section>
+    {{/if}}
+
+    {{#primary_author}}
+      {{> card-author }}
+    {{/primary_author}}
+
+    {{!-- If a user is not a member and he can accsess the post, that mean this post is published as public, in this case, we will show the subscribe form --}}
+    {{#if @labs.members}}
+      {{#unless @member}}
+        {{#if access}}
+          <section class='c-subscribe c-subscribe--center'>
+            <h3 class='u-type-500 u-mb-8'>{{t '{siteTitle} Newsletter' siteTitle=@site.title}}</h3>
+            <p class='u-type-500 u-mb-16'>{{t 'Join the newsletter to receive the latest updates in your inbox.' }}</p>
+            {{> subscribe-form inputLabel='subscribe-email-post' formClass='c-subscribe-form--compact'}}
+          </section>
+        {{/if}}
+      {{/unless}}
+    {{/if}}
+
+    {{> disqus}}
+  {{!-- If the post is published for subscribers and paid members and the user is not one of those, show the upgrade box --}}
+  {{else}}
+    {{> post-upgrade-cta }}
+  {{/if}}
+  <hr>
+</article>
+
+{{/post}}
+
+{{> related-posts}}

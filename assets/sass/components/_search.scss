@@ -1,0 +1,194 @@
+/*------------------------------------*\
+  Components > Search
+\*------------------------------------*/
+
+.c-search {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding-top: $space-72;
+  background: var(--bg-gray);
+  z-index: -1;
+  opacity: 0;
+  transform: scale(.96);
+  transition: transform half($global-transition) cubic-bezier(.694, 0, .335,  1),
+              opacity   half($global-transition) cubic-bezier(.8,   0, .55, .94),
+              z-index   half($global-transition) step-end;
+
+  &.is-active {
+    z-index: 101;
+    opacity: 1;
+    transform: scale(1);
+    transition: transform half($global-transition) cubic-bezier(.8, 0, .55, .94),
+                opacity   half($global-transition) cubic-bezier(.8, 0, .55, .94),
+                z-index   half($global-transition) step-start;
+  }
+
+  &__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  &__icon {
+    position: absolute;
+    left: $space-24;
+    fill: var(--color-gray);
+    width: $space-24;
+    height: $space-24;
+  }
+
+  &__input[type='search'] {
+    width: 100%;
+    margin-bottom: 0;
+    padding: $space-16;
+    padding-left: $space-56;
+    font-weight: $type-600;
+    border: .5px solid var(--color-border);
+    color: var(--color-text);
+    -webkit-appearance: none;
+
+    &::placeholder {
+      opacity: 1;
+      color: var(--color-gray);
+    }
+  }
+
+  &__close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: $space-16;
+    right: $space-16;
+    width: $space-48;
+    height: $space-48;
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: var(--bg-white);
+    border: half($space-8) solid var(--color-border);
+
+    @include mq($from: tablet) {
+      top: $space-16;
+      right: $space-24;
+    }
+
+    @include mq($from: desktop) {
+      top: $space-32;
+      right: $space-32;
+    }
+
+    .icon {
+      fill: var(--color-gray);
+      transition: $global-transition;
+    }
+
+    &:hover {
+      .icon {
+        fill: var(--color-gray);
+        transform: rotate(90deg);
+      }
+    }
+  }
+}
+
+.c-search-results {
+  display: none;
+  height: calc(100vh - #{quadruple($space-32) + $space-32 + $space-8}); // => calc(100vh - 168px)
+  overflow: auto;
+  white-space: normal;
+  margin-top: $space-16;
+
+  @include mq($from: tablet) {
+    height: calc(100vh - #{quadruple($space-32) + $space-32}); // => calc(100vh - 160px)
+  }
+}
+
+.c-search-result {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  padding: $space-16;
+  background-color: var(--bg-white);
+  border-radius: $global-border-radius;
+  border: .5px solid var(--color-border);
+
+  @include mq($from: desktop) {
+    padding: $space-24;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: $space-24;
+  }
+
+  &__content {
+    flex: 1;
+  }
+
+  &__title {
+    font-size: $type-md;
+    line-height: $type-md-lh;
+    font-weight: $type-700;
+
+    @include mq($from: desktop) {
+      font-size: $type-xl;
+      line-height: $type-xl-lh;
+    }
+  }
+
+  &__excerpt {
+    overflow-y: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: $type-sm;
+    font-weight: $type-500;
+    line-height: $type-sm-lh;
+    color: var(--color-gray);
+  }
+
+  &__date {
+    display: block;
+    margin-top: $space-8;
+    font-size: $type-xs;
+    font-weight: $type-500;
+    line-height: $type-xs-lh;
+    color: var(--color-gray);
+    text-transform: uppercase;
+  }
+
+  &__media {
+    margin-left: $space-16;
+    background-color: var(--bg-white);
+
+    @include mq($from: desktop) {
+      margin-left: $space-24;
+    }
+  }
+
+  &__image {
+    display: block;
+    width: $space-72;
+    height: $space-64;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: var(--bg-gray);
+
+    @include mq($from: desktop) {
+      width: double($space-64);
+      height: double($space-48);
+    }
+  }
+
+  @include attention() {
+    color: var(--color-text);
+
+    .c-search-result__title {
+      text-decoration: underline;
+    }
+  }
+}

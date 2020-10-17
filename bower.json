@@ -1,0 +1,14 @@
+{
+  "name": "krabi",
+  "description": "Premium Ghost Theme",
+  "authors": [
+    "Aspire Themes"
+  ],
+  "dependencies": {
+    "jquery.fitvids": "fitvids#^1.1.0",
+    "jquery": "^3.2.1",
+    "zoom.js": "^0.0.1",
+    "bootstrap-transition": "*",
+    "dragscroll": "^0.0.8"
+  }
+}

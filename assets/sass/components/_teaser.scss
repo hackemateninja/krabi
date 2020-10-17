@@ -1,0 +1,60 @@
+/*------------------------------------*\
+  Components > Teaser
+\*------------------------------------*/
+
+.c-teaser {
+  display: flex;
+  align-items: center;
+  padding: $space-24;
+  background-color: var(--bg-white);
+  border-radius: $global-border-radius;
+  border: .5px solid var(--color-border);
+
+  &:not(:last-child) {
+    margin-bottom: $space-24;
+  }
+
+  &__media {
+    margin-left: $space-16;
+    background-color: var(--bg-gray);
+  }
+
+  &__content {
+    flex: 1;
+  }
+
+  &__image {
+    display: block;
+    width: $space-88;
+    height: $space-72;
+    object-fit: cover;
+    background-color: var(--bg-gray);
+    border-radius: $global-border-radius;
+    box-shadow: half($space-8) half($space-8) 0 var(--bg-gray);
+  }
+
+  &__title {
+    display: inline;
+    font-size: $type-md;
+    line-height: $type-md-lh;
+    font-weight: $type-700;
+  }
+
+  &__date {
+    display: block;
+    color: var(--color-gray);
+    font-size: $type-xs;
+    line-height: $type-xs-lh;
+    font-weight: $type-500;
+    margin-top: $space-8;
+  }
+
+  @include attention() {
+    color: var(--color-text);
+
+    .c-teaser__title {
+      color: var(--color-text);
+      text-decoration: underline;
+    }
+  }
+}

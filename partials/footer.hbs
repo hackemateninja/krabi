@@ -1,0 +1,35 @@
+<footer class='c-footer'>
+  <div class='o-grid'>
+
+    <div class='o-grid__col o-grid__col--4-4-s o-grid__col--2-4-m o-grid__col--1-3-l c-footer__section'>
+      <p class='c-footer__headline'>{{ @site.title }}</p>
+      <p class='u-type-md u-color-gray'>{{ @site.description }}</p>
+    </div>
+
+    {{#if @site.secondary_navigation}}
+      <div class='o-grid__col o-grid__col--initial-grow o-grid__col--4-4-s o-grid__col--2-4-m o-grid__col--1-3-l c-footer__section'>
+        <p class='c-footer__headline'>{{t 'Navigation' }}</p>
+        <ul class='c-footer-list o-plain-list'>
+          {{ navigation type='secondary' }}
+        </ul>
+      </div>
+    {{/if}}
+
+    {{#if @labs.members}}
+      {{#unless @member}}
+        <div class='o-grid__col o-grid__col--initial-grow o-grid__col--4-4-s o-grid__col--2-4-m o-grid__col--1-3-l c-footer__section'>
+          <p class='c-footer__headline'>{{t 'Newsletters' }}</p>
+          {{> subscribe-form inputLabel='subscribe-email-footer'}}
+        </div>
+      {{/unless}}
+    {{/if}}
+
+    <div class='o-grid__col o-grid__col--4-4-s c-footer__section'>
+      <div class='u-type-xs c-footer__copyright'>
+        &copy; {{ date format='YYYY' }} {{ @site.title }} -
+        {{{t 'Published with {ghostLink} & {themeLink}' ghostLink='<a href=\'https://ghost.org\'>Ghost</a>' themeLink='<a href=\'https://aspirethemes.com/themes/krabi\'>Krabi</a>' }}}
+      </div>
+    </div>
+
+  </div>
+</footer>

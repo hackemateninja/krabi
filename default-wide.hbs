@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang='{{ @site.lang }}'>
+
+{{> head }}
+
+<body class='{{ body_class }}'>
+  <div class='c-site-container'>
+    {{> notifications }}
+
+    {{> header }}
+
+    {{> tags-list }}
+
+    <main class='o-wrapper'>
+      <div class='o-grid'>
+        {{{ body }}}
+      </div>
+    </main>
+
+    {{> footer}}
+  </div>
+
+  <script src='{{ asset 'js/app.min.js' }}'></script>
+  {{ ghost_foot }}
+</body>
+</html>

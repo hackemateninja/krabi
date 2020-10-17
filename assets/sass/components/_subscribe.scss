@@ -1,0 +1,75 @@
+/*------------------------------------*\
+  Components > Subscribe Form
+\*------------------------------------*/
+
+.c-subscribe {
+  padding: $space-32 $space-24 $space-40;
+  color: var(--color-white);
+  border-radius: $global-border-radius;
+  background-color: var(--color-text);
+  background-repeat: no-repeat;
+  background-position: right (-$space-80) top (-($space-96 + $space-24));
+  background-image: url('data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDIxNjM3IiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOmNjPSJodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9ucyMiIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyIgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczpzb2RpcG9kaT0iaHR0cDovL3NvZGlwb2RpLnNvdXJjZWZvcmdlLm5ldC9EVEQvc29kaXBvZGktMC5kdGQiIHhtbG5zOmlua3NjYXBlPSJodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy9uYW1lc3BhY2VzL2lua3NjYXBlIiB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMTAwIDEwMCI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwtOTUyLjM2MjE4KSI+PHBhdGggc3R5bGU9InRleHQtaW5kZW50OjA7dGV4dC10cmFuc2Zvcm06bm9uZTtkaXJlY3Rpb246bHRyO2Jsb2NrLXByb2dyZXNzaW9uOnRiO2Jhc2VsaW5lLXNoaWZ0OmJhc2VsaW5lO2NvbG9yOiMwMDAwMDA7ZW5hYmxlLWJhY2tncm91bmQ6YWNjdW11bGF0ZTsiIGQ9Im0gMTYuOTk5OTk3LDk3My4zNjIxNiBjIC00LjQzODYsMCAtNy45OTk5OTk3LDMuNzMzMyAtNy45OTk5OTk3LDguMjE4OCBsIDAsNDEuNTMxMjQgYyAwLDQuNDg1NCAzLjU2MTM5OTcsOC4yNSA3Ljk5OTk5OTcsOC4yNSBsIDY2LjAwMDAwNiwwIGMgNC40Mzg2LDAgOCwtMy43NjQ2IDgsLTguMjUgbCAwLC00MS41MzEyNCBjIDAsLTQuNDg1NSAtMy41NjE0LC04LjIxODggLTgsLTguMjE4OCBsIC02Ni4wMDAwMDUsMCB6IG0gMCw0IDY2LjAwMDAwNiwwIGMgMC41OTE5LDAgMS4xNTA4LDAuMTcwNSAxLjY1NjIsMC40MDYyIEwgNTIuNDY4Nzk4LDEwMDguMzMxIGMgLTEuNDc3NCwxLjQwMjYgLTMuMzk1MSwxLjQwMjcgLTQuODc1LDAgbCAtMzIuMjUsLTMwLjU2MjY0IGMgMC41MDU0LC0wLjIzNTcgMS4wNjQzLC0wLjQwNjIgMS42NTYyLC0wLjQwNjIgeiBtIC0zLjkzNzUsMy43NSAyMi43ODEzLDIxLjU5Mzg0IC0yMi40MDYzLDIyLjM3NSBjIC0wLjI4MDYsLTAuNTgyNyAtMC40Mzc1LC0xLjI0OTcgLTAuNDM3NSwtMS45Njg4IGwgMCwtNDEuNTMxMjQgYyAwLC0wLjE2MjQgMC4wNDcsLTAuMzEyMyAwLjA2MiwtMC40Njg4IHogbSA3My44NzUwMDYsMCBjIDAuMDE2LDAuMTU2NSAwLjA2MiwwLjMwNjQgMC4wNjIsMC40Njg4IGwgMCw0MS41MzEyNCBjIDAsMC43MDg3IC0wLjE2NDQsMS4zNjA5IC0wLjQzNzUsMS45Mzc1IGwgLTIyLjM0MzcwNSwtMjIuMzc1IDIyLjcxODcwNSwtMjEuNTYyNTQgeiBtIC0yNS42MjUwMDUsMjQuMzQzODQgMjEuODc1MDA1LDIxLjkwNjIgYyAtMC4wNjMsMCAtMC4xMjQxLDAgLTAuMTg3NSwwIGwgLTY2LjAwMDAwNSwwIGMgLTAuMDUzLDAgLTAuMTA0LDAgLTAuMTU2MiwwIGwgMjEuOTA2MiwtMjEuODc1IDYuMDkzOCw1Ljc1IGMgMi45MDIzLDIuNzUxMiA3LjQ3MzMsMi43NTUxIDEwLjM3NSwwIGwgNi4wOTM3LC01Ljc4MTIgeiIgZmlsbD0iIzAyMTYzNyIgZmlsbC1vcGFjaXR5PSIxIiBzdHJva2U9Im5vbmUiIG1hcmtlcj0ibm9uZSIgdmlzaWJpbGl0eT0idmlzaWJsZSIgZGlzcGxheT0iaW5saW5lIiBvdmVyZmxvdz0idmlzaWJsZSI+PC9wYXRoPjwvZz48L3N2Zz4=');
+
+  &--center {
+    @include mq($from: tablet) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+
+.c-subscribe-form {
+  .c-alert {
+    display: none;
+  }
+
+  .c-btn {
+    width: 100%;
+    line-height: $type-md-lh;
+    @extend .c-btn--loading;
+
+    &:after {
+      display: none;
+    }
+  }
+
+  &.loading .c-btn {
+    &:after {
+      display: block;
+    }
+  }
+
+  &.success .c-alert--success,
+  &.invalid .c-alert--invalid,
+  &.error   .c-alert--error  {
+    display: block;
+  }
+}
+
+@include mq($from: tablet) {
+  .c-subscribe-form--compact {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    .form-group {
+      display: flex;
+    }
+
+    .c-btn {
+      flex: 3;
+      line-height: initial;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    .c-subscribe-form__input[type=email] {
+      margin: 0;
+      background-color: var(--bg-gray);
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+  }
+}

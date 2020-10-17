@@ -1,0 +1,84 @@
+/*------------------------------------*\
+  Components > Author
+\*------------------------------------*/
+
+.c-author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: $space-32;
+  margin-bottom: $space-32;
+  text-align: center;
+  background-color: var(--bg-white);
+  border-radius: $global-border-radius;
+  border: .5px solid var(--color-border);
+
+  @include mq($from: tablet) {
+    flex-direction: row;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  &__media {
+    width: $space-96;
+    height: $space-96;
+    border-radius: 100%;
+    margin-bottom: $space-16;
+    background-color: var(--bg-gray);
+
+    @include mq($from: tablet) {
+      margin-bottom: 0;
+      margin-right: $space-24;
+    }
+  }
+
+  &__image {
+    object-fit: cover;
+    width: $space-96;
+    height: $space-96;
+    min-width: $space-96;
+    border-radius: 100%;
+  }
+
+  &__title {
+    font-size: $type--h-xs;
+    line-height: $type--h-xs-lh;
+  }
+
+  &__bio {
+    font-size: $type-md;
+    line-height: $type-md-lh;
+    color: var(--color-gray);
+  }
+}
+
+.c-author__links {
+  display: flex;
+  justify-content: center;
+  margin-top: half($space-16);
+  color: var(--color-gray);
+
+  @include mq($from: tablet) {
+    justify-content: flex-start;
+  }
+
+  &-item {
+    display: flex;
+    align-items: center;
+    font-size: $type-xs;
+
+    &:not(:last-child) {
+      margin-right: $space-8;
+    }
+  }
+
+  &-icon {
+    fill: var(--color-gray);
+    vertical-align: bottom;
+    transition: $global-transition;
+
+    @include attention() {
+      fill: var(--color-brand);
+    }
+  }
+}

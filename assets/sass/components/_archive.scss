@@ -1,0 +1,23 @@
+/*------------------------------------*\
+  Components > Archive
+\*------------------------------------*/
+
+.c-archive {
+  padding: $space-32;
+  margin-bottom: $space-32;
+  background-color: var(--bg-white);
+  border-radius: $global-border-radius;
+  border: .5px solid var(--color-border);
+
+  &__title {
+    font-size: $type--h-xs;
+    line-height: $type--h-xs-lh;
+  }
+
+  &__description {
+    margin-top: half($space-8);
+    color: var(--color-gray);
+    font-size: $type-md;
+    line-height: $type-md-lh;
+  }
+}

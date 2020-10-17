@@ -1,0 +1,70 @@
+/*------------------------------------*\
+  Components > Notifications
+\*------------------------------------*/
+
+.c-notification  {
+  position: fixed;
+  top: $space-16;
+  right: $space-16;
+  left: $space-16;
+  z-index: 9000;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: $space-16 $space-32 $space-16 $space-16;
+  color: var(--color-white);
+  font-weight: $type-600;
+  font-size: $type-xs;
+  line-height: $type-xs-lh;
+  background-color: var(--color-success);
+  transition: all $global-faster-transition cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+  transform: translateY(-175%);
+  visibility: hidden;
+
+  &--error { background-color: var(--color-error); }
+}
+
+.signup-success    .c-notification--signup,
+.signin-success    .c-notification--signin,
+.checkout-success  .c-notification--checkout,
+.subscribe-success .c-notification--subscribe,
+.billing-success   .c-notification--billing-update,
+.billing-cancel    .c-notification--billing-update-cancel {
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.c-notification.closed {
+  visibility: hidden;
+  transition: all double($global-transition) cubic-bezier(0.19, 1, 0.22, 1);
+  transform: translateY(-175%);
+}
+
+.c-notification__close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  cursor: pointer;
+
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: $space-16;
+    display: block;
+    width: 18px;
+    height: 2px;
+    background: var(--color-white);
+  }
+
+  &:before {
+    transform: rotate(45deg);
+  }
+
+   &:after {
+    transform: rotate(-45deg);
+  }
+}

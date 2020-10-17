@@ -1,0 +1,9 @@
+/*------------------------------------*\
+  Components > Pagination
+\*------------------------------------*/
+
+.c-pagination {
+  @include mq($until: desktop) {
+    margin-bottom: $space-32;
+  }
+}

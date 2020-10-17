@@ -1,0 +1,79 @@
+{
+  "Loading": "Loading",
+  "More Posts": "More Posts",
+
+  "Recent Posts": "Recent Posts",
+  "Featured Posts": "Featured Posts",
+  "Page Not Found": "Page Not Found",
+  "You might also like": "You might also like",
+  "Latest": "Latest",
+  "Authors": "Authors",
+  "Navigation": "Navigation",
+  "Published with {ghostLink} & {themeLink}": "Published with {ghostLink} & {themeLink}",
+
+  "Share on Twitter": "Share on Twitter",
+  "Share on Facebook": "Share on Facebook",
+  "Share on LinkedIn": "Share on LinkedIn",
+  "Share on Pinterest": "Share on Pinterest",
+  "Share via Email": "Share via Email",
+  "Copy link": "Copy link",
+  "Link copied to clipboard": "Link copied to clipboard",
+
+  "Search": "Search",
+  "Search {siteTitle}": "Search {siteTitle}",
+  "Type to Search": "Type to Search",
+
+  "Paid": "Paid",
+  "Members": "Members",
+  "Public": "Public",
+
+  "Account": "Account",
+  "Log In": "Log In",
+  "Log Out": "Log Out",
+  "Continue": "Continue",
+  "Subscribe": "Subscribe",
+  "Subscribe Now": "Subscribe Now",
+  "Your email address": "Your email address",
+  "Please check your inbox and click the link to confirm your subscription.": "Please check your inbox and click the link to confirm your subscription.",
+  "Please enter a valid email address!": "Please enter a valid email address!",
+  "An error occurred, please try again later.": "An error occurred, please try again later.",
+
+  "You've successfully subscribed to {siteTitle}": "You've successfully subscribed to {siteTitle}",
+  "Great! Next, complete checkout for full access to {siteTitle}": "Great! Next, complete checkout for full access to {siteTitle}",
+  "Welcome back! You've successfully signed in.": "Welcome back! You've successfully signed in.",
+  "Success! Your account is fully activated, you now have access to all content.": "Success! Your account is fully activated, you now have access to all content.",
+  "Success! Your billing info is updated.": "Success! Your billing info is updated.",
+  "Billing info update failed.": "Billing info update failed.",
+
+  "Already have an account?": "Already have an account?",
+  "Don't have an account yet?": "Don't have an account yet?",
+
+  "This post is for paying subscribers only": "This post is for paying subscribers only",
+  "This post is for subscribers only": "This post is for subscribers only",
+  "This page is for paying subscribers only": "This page is for paying subscribers only",
+  "This page is for subscribers only": "This page is for subscribers only",
+
+  "Join the newsletter to receive the latest updates in your inbox.": "Join the newsletter to receive the latest updates in your inbox.",
+
+  "Choose your subscription": "Choose your subscription",
+  "Unlock full access to {siteTitle} and see the entire library of members-only content & updates.": "Unlock full access to {siteTitle} and see the entire library of members-only content & updates.",
+  "Subscribe to {siteTitle}": "Subscribe to {siteTitle}",
+  "Choose this plan": "Choose this plan",
+  "Monthly": "Monthly",
+  "Yearly": "Yearly",
+
+  "Welcome back!": "Welcome back!",
+  "Log Into your account again.": "Log Into your account again.",
+  "Send login link": "Send login link",
+
+  "Nice, you're a subscriber!": "Nice, you're a subscriber!",
+  "Your subscription will expire on": "Your subscription will expire on",
+  "Your plan": "Your plan",
+  "Card": "Card",
+  "Expires": "Expires",
+  "Next bill date": "Next bill date",
+  "Edit billing info": "Edit billing info",
+  "You have an active {siteTitle} account with access to all posts.": "You have an active {siteTitle} account with access to all posts.",
+  "You're a subscriber to free members updates": "You're a subscriber to free members updates",
+  "You are subscribed to free updates from {siteTitle}, but don't have a paid subscription to read all the posts.": "You are subscribed to free updates from {siteTitle}, but don't have a paid subscription to read all the posts."
+}

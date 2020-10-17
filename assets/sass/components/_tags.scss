@@ -1,0 +1,34 @@
+/*------------------------------------*\
+  Components > Tags
+\*------------------------------------*/
+
+.c-tags {
+  overflow: hidden;
+  margin-bottom: - $space-8;
+
+  @include mq($from: tablet) {
+    margin-bottom: - $space-16;
+  }
+
+  a {
+    float: left;
+    font-size: $type-xs;
+    line-height: $type-xs-lh;
+    font-weight: $type-500;
+    letter-spacing: $global-letter-spacing;
+    padding: $space-8 $space-16;
+    margin-right: $space-8;
+    margin-bottom: $space-8;
+    color: var(--color-brand);
+    background-color: var(--bg-white);
+    border: .5px solid var(--color-border);
+    border-radius: $global-border-radius;
+
+    @include mq($from: tablet) {
+      padding: $space-8 $space-24;
+      margin-right: $space-16;
+      margin-bottom: $space-16;
+      line-height: $type-md-lh;
+    }
+  }
+}
