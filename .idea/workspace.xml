@@ -15,9 +15,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/partials" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/partials" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="postinstall" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -44,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602911682811</updated>
-      <workItem from="1602911683866" duration="5335000" />
+      <workItem from="1602911683866" duration="6997000" />
     </task>
     <servers />
   </component>
