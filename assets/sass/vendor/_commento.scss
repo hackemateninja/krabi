@@ -4,9 +4,15 @@
 
 .commento-root {
   padding: $space-32 !important;
+  font-family: -apple-system, $type-sans-serif;
 
   * {
     color: var(--color-text) !important;
+    font-size: 18px !important;
+  }
+
+  a{
+    color: var(--color-brand) !important;
   }
 
   textarea {
@@ -25,6 +31,8 @@
   }
 
   .commento-card {
+    border-top: 0 solid transparent;
+
     border-left: 5px solid var(--color-brand) !important;
 
     .commento-name {
@@ -37,10 +45,12 @@
       background: var(--color-error)!important;
     }
     .commento-score {
-      color: var(--color-white)!important;
+      color: var(--color-text)!important;
+      font-weight: bold !important;
     }
     .commento-timeago {
-      color: var(--color-text)!important;
+      color: var(--color-white)!important;
+      font-weight: bold !important;
     }
   }
 
@@ -82,7 +92,7 @@
     font-family: $type-sans-serif !important;
   }
   .commento-sort-policy-buttons-container .commento-sort-policy-buttons .commento-sort-policy-button {
-    color: var(--color-brand) !important;
+    color: var(--color-white) !important;
   }
   .commento-submit-button {
     background: var(--color-brand) !important;
