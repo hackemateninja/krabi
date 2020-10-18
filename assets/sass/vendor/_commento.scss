@@ -5,9 +5,61 @@
 .commento-root {
   padding: $space-32 !important;
 
-  .commento-markdown-help tr td pre {
-    padding: initial;
-    background: transparent;
+  * {
+    font-family: inherit;
+    font-size: 15px;
+    color: var(--color-text);
+  }
+
+  input[type=text], .commento-root textarea {
+    background: #2b2d38;
+    border: 5px solid var(--color-brand);
+    border-radius: 3px;
+    color: var(--color-text);
+  }
+
+  .commento-avatar {
+    background-color: var(--color-brand) !important;
+  }
+
+  .commento-anonymous-checkbox-container input[type=checkbox]+label {
+    color: var(--color-text);
+  }
+
+  .commento-card {
+    border-left: 5px solid var(--color-brand);
+
+    .commento-name {
+      color: var(--color-text);
+    }
+    .commento-option-cancel {
+      background: var(--color-brand);
+    }
+    .commento-option-remove {
+      background: var(--color-error);
+    }
+    .commento-score {
+      color: var(--color-white);
+    }
+    .commento-timeago {
+      color: var(--color-text);
+    }
+  }
+
+  .commento-footer .commento-logo-container .commento-logo-text {
+    display: none;
+  }
+
+  .commento-markdown-button {
+    color: var(--color-text);
+  }
+
+  .commento-markdown-help{
+    border: 5px solid var(--color-brand);
+    tr td pre {
+      padding: initial;
+      background: transparent;
+    }
   }
 
   blockquote {
@@ -16,11 +68,25 @@
     box-shadow: none;
   }
 
-  .commento-markdown-help tr td {
-    border: 0;
-  }
-
   .commento-markdown-help {
     border-collapse: initial;
+    tr td {
+      border: 0;
+    }
+  }
+  .commento-name {
+    color: var(--color-text);
+  }
+  .commento-profile-button {
+    color: var(--color-text);
+  }
+  .commento-root-font * {
+    font-family: $type-sans-serif;
+  }
+  .commento-sort-policy-buttons-container .commento-sort-policy-buttons .commento-sort-policy-button {
+    color: var(--color-brand);
+  }
+  .commento-submit-button {
+    background: var(--color-brand);
   }
 }

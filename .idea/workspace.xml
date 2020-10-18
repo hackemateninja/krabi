@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5da7b9d1-873e-4143-81c5-4d2b864ed98b" name="Default Changelist" comment="" />
+    <list default="true" id="5da7b9d1-873e-4143-81c5-4d2b864ed98b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style-min-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style-min-rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/settings/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/settings/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/vendor/_commento.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/vendor/_commento.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/commento.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/partials/commento.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/compiled/inline-css-rtl.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/partials/compiled/inline-css-rtl.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/compiled/inline-css.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/partials/compiled/inline-css.hbs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1izY2nvxi5AGjpq7tsYjHcUYdho" />
   <component name="ProjectViewState">
@@ -49,7 +61,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602911682811</updated>
-      <workItem from="1602911683866" duration="12774000" />
+      <workItem from="1602911683866" duration="13469000" />
+      <workItem from="1602992078600" duration="2955000" />
     </task>
     <servers />
   </component>
@@ -57,25 +70,25 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1867" height="262" key="GridCell.Tab.0.bottom" timestamp="1602915275260">
+    <state width="1867" height="262" key="GridCell.Tab.0.bottom" timestamp="1602988048751">
       <screen x="-1920" y="23" width="1920" height="1004" />
     </state>
-    <state width="1867" height="262" key="GridCell.Tab.0.bottom/0.23.1680.1027/-1920.23.1920.1004@-1920.23.1920.1004" timestamp="1602915275260" />
-    <state width="1867" height="262" key="GridCell.Tab.0.center" timestamp="1602915275258">
+    <state width="1867" height="262" key="GridCell.Tab.0.bottom/0.23.1680.1027/-1920.23.1920.1004@-1920.23.1920.1004" timestamp="1602988048751" />
+    <state width="1867" height="262" key="GridCell.Tab.0.center" timestamp="1602988048749">
       <screen x="-1920" y="23" width="1920" height="1004" />
     </state>
-    <state width="1867" height="262" key="GridCell.Tab.0.center/0.23.1680.1027/-1920.23.1920.1004@-1920.23.1920.1004" timestamp="1602915275258" />
-    <state width="1867" height="262" key="GridCell.Tab.0.left" timestamp="1602915275256">
+    <state width="1867" height="262" key="GridCell.Tab.0.center/0.23.1680.1027/-1920.23.1920.1004@-1920.23.1920.1004" timestamp="1602988048749" />
+    <state width="1867" height="262" key="GridCell.Tab.0.left" timestamp="1602988048747">
       <screen x="-1920" y="23" width="1920" height="1004" />
     </state>
-    <state width="1867" height="262" key="GridCell.Tab.0.left/0.23.1680.1027/-1920.23.1920.1004@-1920.23.1920.1004" timestamp="1602915275256" />
-    <state width="1867" height="262" key="GridCell.Tab.0.right" timestamp="1602915275259">
+    <state width="1867" height="262" key="GridCell.Tab.0.left/0.23.1680.1027/-1920.23.1920.1004@-1920.23.1920.1004" timestamp="1602988048747" />
+    <state width="1867" height="262" key="GridCell.Tab.0.right" timestamp="1602988048750">
       <screen x="-1920" y="23" width="1920" height="1004" />
     </state>
-    <state width="1867" height="262" key="GridCell.Tab.0.right/0.23.1680.1027/-1920.23.1920.1004@-1920.23.1920.1004" timestamp="1602915275259" />
-    <state x="-1278" y="138" width="634" height="744" key="find.popup" timestamp="1602925129289">
+    <state width="1867" height="262" key="GridCell.Tab.0.right/0.23.1680.1027/-1920.23.1920.1004@-1920.23.1920.1004" timestamp="1602988048750" />
+    <state x="-1278" y="138" width="634" height="744" key="find.popup" timestamp="1603003700283">
       <screen x="-1920" y="23" width="1920" height="1004" />
     </state>
-    <state x="-1278" y="138" width="634" height="744" key="find.popup/0.23.1680.1027/-1920.23.1920.1004@-1920.23.1920.1004" timestamp="1602925129289" />
+    <state x="-1278" y="138" width="634" height="744" key="find.popup/0.23.1680.1027/-1920.23.1920.1004@-1920.23.1920.1004" timestamp="1603003700283" />
   </component>
 </project>
