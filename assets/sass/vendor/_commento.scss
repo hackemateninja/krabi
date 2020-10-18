@@ -22,7 +22,7 @@
   }
 
   textarea {
-    background: #2b2d38 !important;
+    background: var(--color-dark-gray) !important;
     border: 5px solid var(--color-brand) !important;
     border-radius: 3px !important;
     color: var(--color-text) !important;
@@ -76,13 +76,21 @@
   .commento-login-box-container {
     .commento-login-box {
       background: var(--color-dark) !important;
+
+      .commento-login-box-subtitle {
+        color: var(--color-white) !important;
+        font-size: 18px !important;
+        letter-spacing: 2px !important;
+      }
     }
+
     .commento-email-container .commento-email {
-      background: transparent !important;
+      background: var(--color-dark-gray) !important;
 
       .commento-input {
         background: transparent !important;
         height: 100% !important;
+        letter-spacing: 2px;
       }
       .commento-email-button {
         background: transparent !important;
