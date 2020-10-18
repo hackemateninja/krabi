@@ -6,16 +6,14 @@
   padding: $space-32 !important;
 
   * {
-    font-family: inherit;
-    font-size: 15px;
-    color: var(--color-text);
+    color: var(--color-text) !important;
   }
 
-  input[type=text], .commento-root textarea {
-    background: #2b2d38;
-    border: 5px solid var(--color-brand);
-    border-radius: 3px;
-    color: var(--color-text);
+  textarea {
+    background: #2b2d38 !important;
+    border: 5px solid var(--color-brand) !important;
+    border-radius: 3px !important;
+    color: var(--color-text) !important;
   }
 
   .commento-avatar {
@@ -23,70 +21,70 @@
   }
 
   .commento-anonymous-checkbox-container input[type=checkbox]+label {
-    color: var(--color-text);
+    color: var(--color-text) !important;
   }
 
   .commento-card {
-    border-left: 5px solid var(--color-brand);
+    border-left: 5px solid var(--color-brand) !important;
 
     .commento-name {
-      color: var(--color-text);
+      color: var(--color-text)!important;
     }
     .commento-option-cancel {
-      background: var(--color-brand);
+      background: var(--color-brand)!important;
     }
     .commento-option-remove {
-      background: var(--color-error);
+      background: var(--color-error)!important;
     }
     .commento-score {
-      color: var(--color-white);
+      color: var(--color-white)!important;
     }
     .commento-timeago {
-      color: var(--color-text);
+      color: var(--color-text)!important;
     }
   }
 
   .commento-footer .commento-logo-container .commento-logo-text {
-    display: none;
+    display: none !important;
   }
 
   .commento-markdown-button {
-    color: var(--color-text);
+    color: var(--color-text) !important;
   }
 
   .commento-markdown-help{
-    border: 5px solid var(--color-brand);
+    border: 5px solid var(--color-brand) !important;
     tr td pre {
-      padding: initial;
-      background: transparent;
+      padding: initial !important;
+      background: transparent !important;
     }
   }
 
   blockquote {
-    border-top: 0;
-    font-weight: inherit;
-    box-shadow: none;
+    border-top: 0 !important;
+    font-weight: inherit !important;
+    box-shadow: none !important;
   }
 
   .commento-markdown-help {
-    border-collapse: initial;
+    border-collapse: initial !important;
     tr td {
-      border: 0;
+      border: 0 !important;
     }
   }
   .commento-name {
-    color: var(--color-text);
+    color: var(--color-text) !important;
   }
   .commento-profile-button {
-    color: var(--color-text);
+    color: var(--color-text) !important;
   }
   .commento-root-font * {
-    font-family: $type-sans-serif;
+    font-family: $type-sans-serif !important;
   }
   .commento-sort-policy-buttons-container .commento-sort-policy-buttons .commento-sort-policy-button {
-    color: var(--color-brand);
+    color: var(--color-brand) !important;
   }
   .commento-submit-button {
-    background: var(--color-brand);
+    background: var(--color-brand) !important;
   }
 }
