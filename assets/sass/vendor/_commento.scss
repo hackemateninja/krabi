@@ -4,7 +4,7 @@
 
 .commento-root {
   padding: $space-32 !important;
-  font-family: -apple-system, $type-sans-serif;
+  font-family: -apple-system, $type-sans-serif !important;
 
   * {
     color: var(--color-text) !important;
@@ -12,6 +12,13 @@
 
   a{
     color: var(--color-brand) !important;
+    font-weight: bold !important;
+  }
+
+  blockquote {
+    border-top: 0 !important;
+    font-weight: inherit !important;
+    box-shadow: none !important;
   }
 
   textarea {
@@ -34,10 +41,8 @@
 
   .commento-card {
     border-top: 0 solid transparent !important;
-
     border-left: 5px solid var(--color-brand) !important;
     font-size: 16px !important;
-
 
     .commento-body p {
       font-size: 18px !important;
@@ -68,6 +73,27 @@
     display: none !important;
   }
 
+  .commento-login-box-container {
+    .commento-login-box {
+      background: var(--color-dark) !important;
+    }
+    .commento-email-container .commento-email {
+      background: transparent !important;
+
+      .commento-input {
+        background: transparent !important;
+        height: 100% !important;
+      }
+      .commento-email-button {
+        background: transparent !important;
+        color: var(--color-brand) !important;
+        font-weight: bold !important;
+        font-size: 18px !important;
+        height: 100% !important;
+      }
+    }
+  }
+
   .commento-markdown-button {
     color: var(--color-text) !important;
   }
@@ -78,12 +104,6 @@
       padding: initial !important;
       background: transparent !important;
     }
-  }
-
-  blockquote {
-    border-top: 0 !important;
-    font-weight: inherit !important;
-    box-shadow: none !important;
   }
 
   .commento-markdown-help {
