@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom-tags.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/custom-tags.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partials/card-tag.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/partials/card-tag.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/tag.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/partials" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -58,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602911682811</updated>
       <workItem from="1602911683866" duration="13469000" />
-      <workItem from="1602992078600" duration="9028000" />
+      <workItem from="1602992078600" duration="9634000" />
     </task>
     <servers />
   </component>
@@ -82,6 +82,10 @@
       <screen x="-1920" y="23" width="1920" height="1004" />
     </state>
     <state width="1867" height="262" key="GridCell.Tab.0.right/0.23.1680.1027/-1920.23.1920.1004@-1920.23.1920.1004" timestamp="1602988048750" />
+    <state x="-1423" y="149" key="SettingsEditor" timestamp="1603015348432">
+      <screen x="-1920" y="23" width="1920" height="1004" />
+    </state>
+    <state x="-1423" y="149" key="SettingsEditor/0.23.1680.1027/-1920.23.1920.1004@-1920.23.1920.1004" timestamp="1603015348432" />
     <state x="-1278" y="138" width="634" height="744" key="find.popup" timestamp="1603003700283">
       <screen x="-1920" y="23" width="1920" height="1004" />
     </state>
