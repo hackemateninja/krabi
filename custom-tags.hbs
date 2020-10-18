@@ -7,8 +7,8 @@
 </div>
 
 <div class='o-grid'>
-  {{#get 'tags' limit='internal' include='count.posts' order='count.posts desc'}}
-    {{#foreach tags}}
+  {{#get 'tags' limit='all' include='count.posts' order='count.posts desc'}}
+    {{#foreach tags visibility="internal"}}
       {{> card-tag }}
     {{/foreach}}
   {{/get}}
