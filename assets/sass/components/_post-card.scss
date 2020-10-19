@@ -11,7 +11,7 @@
   margin-bottom: $space-32;
   background-color: var(--bg-white);
   border-radius: $global-border-radius;
-  border: .5px solid var(--color-border);
+  border-bottom: 5px solid var(--color-brand);
 
   &__media {
     overflow: hidden;
@@ -69,11 +69,13 @@
   }
 
   &__visibility {
+    background-color: var(--color-success);
     display: inline-block;
     font-size: $type-xs;
     line-height: $type-xs-lh;
-    font-weight: $type-500;
-    color: var(--color-success);
+    padding: 8px;
+    font-weight: $type-700;
+    color: var(--color-white);
 
     span { display: none; }
 
@@ -155,7 +157,10 @@
 
     a {
       display: inline-block;
-      color: var(--color-brand);
+      background-color: var(--color-brand);
+      padding: 5px;
+      font-weight: $type-700;
+      color: var(--color-white);
     }
   }
 
