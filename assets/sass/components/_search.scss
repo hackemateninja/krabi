@@ -48,12 +48,12 @@
     padding-left: $space-56;
     font-weight: $type-600;
     border: .5px solid var(--color-border);
-    color: var(--color-text);
+    color: var(--color-dark-gray);
     -webkit-appearance: none;
 
     &::placeholder {
       opacity: 1;
-      color: var(--color-gray);
+      color: var(--color-dark-gray);
     }
   }
 
