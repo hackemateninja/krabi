@@ -7,9 +7,9 @@
 </div>
 
 <div class='o-grid'>
-  {{#get 'posts' limit='all' filter="tag:product"}}
-    {{#foreach posts}}
-      {{> card-tag }}
+  {{#get 'posts' limit='all'}}
+    {{#foreach posts filter="primary_tag:product"}}
+      {{> post-card }}
     {{/foreach}}
   {{/get}}
 </div>
