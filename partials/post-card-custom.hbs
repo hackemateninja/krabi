@@ -9,12 +9,10 @@
     {{/if}}
 
     <div class='c-tag-card__content'>
-      <h2 class='c-tag-card__title'><a href='{{ url }}' class='c-tag-card__url'>{{ name }}</a></h2>
-      {{#if description}}
-        <p class='c-tag-card__description'>{{ description }}</p>
-      {{/if}}
+      <h2 class='c-tag-card__title'><a href='{{ url }}' class='c-tag-card__url'>{{ title }}</a></h2>
+      <p class='c-tag-card__description'>{{ excerpt }}</p>
     </div>
 
-    <div class='c-tag-card__meta c-tag-card__meta--{{visibility}}'>{{visibility}}</div>
+    <div class='c-tag-card--{{visibility}}'>View</div>
   </div>
 </div>

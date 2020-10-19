@@ -89,18 +89,42 @@
     padding: 5px;
     text-align: center;
     border-top: .5px solid var(--color-border);
-
-    &--paid {
-      background-color: 5px solid var(--color-paid);
-    }
-    &--members {
-      background-color: 5px solid var(--color-member);
-    }
-    &--public {
-      background-color: 5px solid var(--color-success);
-    }
   }
 
+
+  &--paid {
+    font-size: $type-xs;
+    line-height: $type-xs-lh;
+    font-weight: $type-700;
+    background-color: var(--color-paid);
+    color: var(--color-white);
+    margin: $space-16 $space-32 0;
+    padding: 5px;
+    text-align: center;
+    border-top: .5px solid var(--color-border);
+  }
+  &--members {
+    font-size: $type-xs;
+    line-height: $type-xs-lh;
+    font-weight: $type-700;
+    background-color: var(--color-member);
+    color: var(--color-white);
+    margin: $space-16 $space-32 0;
+    padding: 5px;
+    text-align: center;
+    border-top: .5px solid var(--color-border);
+  }
+  &--public {
+    font-size: $type-xs;
+    line-height: $type-xs-lh;
+    font-weight: $type-700;
+    background-color: var(--color-success);
+    color: var(--color-white);
+    margin: $space-16 $space-32 0;
+    padding: 5px;
+    text-align: center;
+    border-top: .5px solid var(--color-border);
+  }
   @include attention() {
     .c-tag-card__url {
       text-decoration: underline;
