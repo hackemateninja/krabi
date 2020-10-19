@@ -7,8 +7,8 @@
 </div>
 
 <div class='o-grid'>
-  {{#get 'posts' limit='all'}}
-    {{#foreach posts filter="visibility:paid"}}
+  {{#get 'posts' filter="visibility:paid"}}
+    {{#foreach posts}}
       {{> post-card }}
     {{/foreach}}
   {{/get}}
