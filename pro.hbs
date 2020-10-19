@@ -3,7 +3,6 @@
     <h1 class='c-archive__title'>Pro Lessons</h1>
   </div>
 
-  {{#if @labs.members}}
   <div class='o-grid'>
     {{#get 'posts' filter="visibility:paid"}}
       {{#foreach posts}}
@@ -11,4 +10,3 @@
       {{/foreach}}
     {{/get}}
   </div>
-  {{/if}}

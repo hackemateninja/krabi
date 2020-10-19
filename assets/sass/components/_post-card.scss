@@ -13,6 +13,16 @@
   border-radius: $global-border-radius;
   border-bottom: 5px solid var(--color-brand);
 
+  &__paid {
+    border-bottom: 5px solid var(--color-paid);
+  }
+  &__members {
+    border-bottom: 5px solid var(--color-member);
+  }
+  &__public {
+    border-bottom: 5px solid var(--color-success);
+  }
+
   &__media {
     overflow: hidden;
     background-color: var(--bg-gray);

@@ -5,7 +5,7 @@
 </div>
 
 <div class='o-grid'>
-  {{#get 'posts' filter="tags:hash-product"}}
+  {{#get 'posts' filter="featured:true"}}
     {{#foreach posts}}
       {{> post-card }}
     {{/foreach}}
