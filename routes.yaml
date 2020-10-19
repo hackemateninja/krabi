@@ -10,5 +10,5 @@ collections:
     template: index
 
 taxonomies:
-  tag: /tag/{slug}/
-  author: /author/{slug}/
+  tag: /kata/{slug}/
+  author: /sensei/{slug}/

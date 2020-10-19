@@ -9,7 +9,7 @@
   position: relative;
   margin-bottom: $space-32;
   background-color: var(--bg-white);
-  border: .5px solid var(--color-border);
+  border-bottom: 5px solid var(--color-brand);
 
   &-wrap {
     display: flex;
@@ -71,10 +71,11 @@
   &__meta {
     font-size: $type-xs;
     line-height: $type-xs-lh;
-    font-weight: $type-500;
-    color: var(--color-gray);
+    font-weight: $type-700;
+    background-color: var(--color-brand);
+    color: var(--color-white);
     margin: $space-16 $space-32 0;
-    padding: $space-16 0 $space-32 0;
+    padding: 5px;
     border-top: .5px solid var(--color-border);
   }
 
