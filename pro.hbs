@@ -4,7 +4,7 @@
   </div>
 
   {{#if @labs.members}}
-  <div class='o-grid__col o-grid__col--initial-grow o-grid__col--4-4-s o-grid__col--2-4-m c-tag-card-wrap'>
+  <div class='o-grid'>
     {{#get 'posts' filter="visibility:paid"}}
       {{#foreach posts}}
         {{> post-card-custom }}
