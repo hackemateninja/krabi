@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5da7b9d1-873e-4143-81c5-4d2b864ed98b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/partials/post-card-custom.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/components/_post-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/components/_post-card.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/free.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/free.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pro.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/pro.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/routes.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/store.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,15 +43,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/partials" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/partials" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -79,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602911682811</updated>
       <workItem from="1602911683866" duration="13469000" />
-      <workItem from="1602992078600" duration="29489000" />
+      <workItem from="1602992078600" duration="30353000" />
     </task>
     <servers />
   </component>

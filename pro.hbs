@@ -3,10 +3,12 @@
     <h1 class='c-archive__title'>Pro Lessons</h1>
   </div>
 
-  <div class='o-grid'>
+  {{#if @labs.members}}
+  <div class='o-grid__col o-grid__col--initial-grow o-grid__col--4-4-s o-grid__col--2-4-m c-tag-card-wrap'>
     {{#get 'posts' filter="visibility:paid"}}
       {{#foreach posts}}
-        {{> post-card }}
+        {{> post-card-custom }}
       {{/foreach}}
     {{/get}}
   </div>
+  {{/if}}
