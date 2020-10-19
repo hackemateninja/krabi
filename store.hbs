@@ -1,17 +1,13 @@
 {{!< default}}
 
-{{#post}}
-
 <div class='c-archive'>
   <h1 class='c-archive__title'>{{ title }}</h1>
 </div>
 
 <div class='o-grid'>
-  {{#get 'posts' filter="tags:product"}}
+  {{#get 'posts' filter="tags:hash-product"}}
     {{#foreach posts}}
       {{> post-card }}
     {{/foreach}}
   {{/get}}
 </div>
-
-{{/post}}
