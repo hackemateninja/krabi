@@ -21,10 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5da7b9d1-873e-4143-81c5-4d2b864ed98b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/free.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/free.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/components/_card-tag.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/components/_card-tag.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/components/_post-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/components/_post-card.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partials/post-card-custom.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/partials/post-card-custom.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/pro.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/store.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602911682811</updated>
       <workItem from="1602911683866" duration="13469000" />
-      <workItem from="1602992078600" duration="30698000" />
+      <workItem from="1602992078600" duration="31157000" />
     </task>
     <servers />
   </component>

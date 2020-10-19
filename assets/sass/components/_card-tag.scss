@@ -11,6 +11,17 @@
   background-color: var(--bg-white);
   border-bottom: 5px solid var(--color-brand);
 
+  &__paid {
+    border-bottom: 5px solid var(--color-paid);
+  }
+  &__members {
+    border-bottom: 5px solid var(--color-member);
+  }
+  &__public {
+    border-bottom: 5px solid var(--color-success);
+  }
+
+
   &-wrap {
     display: flex;
   }
@@ -78,6 +89,16 @@
     padding: 5px;
     text-align: center;
     border-top: .5px solid var(--color-border);
+
+    &--paid {
+      background-color: 5px solid var(--color-paid);
+    }
+    &--members {
+      background-color: 5px solid var(--color-member);
+    }
+    &--public {
+      background-color: 5px solid var(--color-success);
+    }
   }
 
   @include attention() {
