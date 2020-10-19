@@ -20,14 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5da7b9d1-873e-4143-81c5-4d2b864ed98b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/free.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pro.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style-min-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style-min-rtl.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/sass/elements/_input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/elements/_input.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/components/_post-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/components/_post-card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/components/_search.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/components/_search.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/components/_tags.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/components/_tags.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/settings/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/settings/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/trumps/_link.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/trumps/_link.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partials/compiled/inline-css-rtl.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/partials/compiled/inline-css-rtl.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partials/compiled/inline-css.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/partials/compiled/inline-css.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partials/sidebar-social-icons.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/partials/sidebar-social-icons.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partials/sidebar-sponsor.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/partials/sidebar-sponsor.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/post-card.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/partials/post-card.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/routes.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +52,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/partials" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/partials" />
     </key>
   </component>
@@ -81,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602911682811</updated>
       <workItem from="1602911683866" duration="13469000" />
-      <workItem from="1602992078600" duration="21188000" />
+      <workItem from="1602992078600" duration="25775000" />
     </task>
     <servers />
   </component>
@@ -116,6 +124,10 @@
       <screen x="-1920" y="23" width="1920" height="1004" />
     </state>
     <state width="1867" height="262" key="GridCell.Tab.0.right/0.23.1680.1027/-1920.23.1920.1004@-1920.23.1920.1004" timestamp="1602988048750" />
+    <state x="-1374" y="251" key="IDE.errors.dialog" timestamp="1603098459182">
+      <screen x="-1920" y="23" width="1920" height="1004" />
+    </state>
+    <state x="-1374" y="251" key="IDE.errors.dialog/0.23.1680.1027/-1920.23.1920.1004@-1920.23.1920.1004" timestamp="1603098459182" />
     <state x="-1423" y="149" key="SettingsEditor" timestamp="1603015348432">
       <screen x="-1920" y="23" width="1920" height="1004" />
     </state>

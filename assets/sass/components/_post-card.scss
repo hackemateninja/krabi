@@ -69,7 +69,6 @@
   }
 
   &__visibility {
-    background-color: var(--color-success);
     display: inline-block;
     font-size: $type-xs;
     line-height: $type-xs-lh;
@@ -78,6 +77,16 @@
     color: var(--color-white);
 
     span { display: none; }
+
+    &--paid {
+      background-color: var(--color-paid);
+    }
+    &--members {
+      background-color: var(--color-member);
+    }
+    &--public {
+      background-color: var(--color-success);
+    }
 
     &--paid .paid,
     &--members .members,
