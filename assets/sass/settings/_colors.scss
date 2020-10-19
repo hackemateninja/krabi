@@ -4,6 +4,7 @@
 
 :root {
   --color-brand: 	 #3371FF;
+  --color-brand-strong: 	 #051637;
   --color-white:   #FFFFFF;
   --color-dark:    #000C2D;
   --color-dark-gray:    #2b2d38;
@@ -16,7 +17,7 @@
   --bg-color:      var(--color-dark);
   --bg-gray:       var(--color-dark);
   --bg-dark:       var(--color-dark);
-  --bg-white:      var(--color-dark-gray);
+  --bg-white:      var(--color-brand-strong);
 
   --color-code-inline: var(--color-text);
   --bg-tag-list: linear-gradient(to left, var(--bg-color), rgba(255, 255, 255, 0));
