@@ -1,17 +1,12 @@
 {{!< default}}
-
-{{#post}}
-
   <div class='c-archive'>
     <h1 class='c-archive__title'>Pro Lessons</h1>
   </div>
 
   <div class='o-grid'>
-    {{#get 'posts' filter="visibility:public"}}
+    {{#get 'posts' filter="visibility:paid"}}
       {{#foreach posts}}
         {{> post-card }}
       {{/foreach}}
     {{/get}}
   </div>
-
-{{/post}}
