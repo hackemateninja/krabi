@@ -50,9 +50,14 @@
           </div>
         </a>
 
-      <div class='c-post-card__tag'>
-        {{ tags separator=' / ' limit='1' }}
-      </div>
+
+      {{#if tags}}
+        {{#foreach tags}}
+          <div class='c-post-card__tag'>
+            <a href="{{url}}" title="{{name}}">{{name}}</a>
+          </div>
+        {{/foreach}}
+      {{/if}}
     </div>
 
   </div>
