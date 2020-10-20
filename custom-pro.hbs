@@ -7,8 +7,8 @@
   </div>
 
   <div class='o-grid'>
-  {{#get 'posts' limit="all"}}
-    {{#foreach posts}}
+  {{#get 'posts'}}
+    {{#foreach posts visibility='all'}}
         {{visibility}}
         {{title}}
         {{description}}
