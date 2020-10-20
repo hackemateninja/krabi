@@ -8,7 +8,7 @@
 
   <div class='o-grid'>
     {{#foreach posts visibility="all"}}
-      {{#has visibility="paid"}}
+      {{#has tag="#pro"}}
         {{> post-card-custom }}
       {{/has}}
     {{/foreach}}
