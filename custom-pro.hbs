@@ -7,12 +7,15 @@
   </div>
 
   <div class='o-grid'>
-    {{#foreach posts visibility="all"}}
+  {{#get 'posts' limit="all"}}
+    {{#foreach posts}}
         {{visibility}}
         {{title}}
         {{description}}
         {{> post-card-custom }}
     {{/foreach}}
+  {{/get}}
+
   </div>
 
 {{/post}}
