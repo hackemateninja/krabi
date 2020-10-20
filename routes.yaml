@@ -3,8 +3,6 @@ routes:
   /signup/: members/signup
   /signin/: members/signin
   /account/: members/account
-  /free/: free
-  /store/: store
 
 collections:
   /:
