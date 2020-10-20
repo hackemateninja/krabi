@@ -7,9 +7,11 @@
   </div>
 
   <div class='o-grid'>
-    {{#get "posts" limit="all" filter="visibility:paid+tag:hash-pro"}}
+    {{#get "posts" limit="all"}}
       {{#foreach posts}}
-        {{> post-card-custom }}
+        {{#has visibility="paid"}}
+          {{> post-card-custom }}
+        {{/has}}
       {{/foreach}}
     {{/get}}
   </div>
