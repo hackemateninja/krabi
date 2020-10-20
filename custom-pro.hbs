@@ -9,10 +9,10 @@
   <div class='o-grid'>
   {{#get 'posts'}}
     {{#foreach posts visibility='all'}}
+      {{#has visibility="paid"}}
         {{visibility}}
-        {{title}}
-        {{description}}
         {{> post-card-custom }}
+      {{/has}}
     {{/foreach}}
   {{/get}}
 
