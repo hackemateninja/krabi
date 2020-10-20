@@ -9,10 +9,6 @@
   </div>
 {{/tag}}
 
-<div class='js-grid'>
-  {{#foreach posts visibility='all' order="published_at asc"}}
-    {{> post-card }}
-  {{/foreach}}
-</div>
+{{> loop }}
 
 {{ pagination }}

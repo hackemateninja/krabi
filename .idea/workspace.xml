@@ -24,7 +24,6 @@
       <change beforePath="$PROJECT_DIR$/custom-free.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/custom-free.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom-pro.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/custom-pro.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom-store.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/custom-store.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partials/related-posts.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/partials/related-posts.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tag.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/tag.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602911682811</updated>
       <workItem from="1602911683866" duration="13469000" />
-      <workItem from="1602992078600" duration="45077000" />
+      <workItem from="1602992078600" duration="45341000" />
     </task>
     <servers />
   </component>

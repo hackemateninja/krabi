@@ -6,19 +6,15 @@
     <h1 class='c-archive__title'>Pro Lessons</h1>
   </div>
 
-  <div class='js-grid'>
-    <div class='o-grid'>
-    {{#get 'posts'}}
-      {{#foreach posts visibility='all'}}
-        {{#has visibility="paid"}}
-          {{> post-card-custom }}
-        {{/has}}
-      {{/foreach}}
-    {{/get}}
+  <div class='o-grid'>
+  {{#get 'posts'}}
+    {{#foreach posts visibility='all'}}
+      {{#has visibility="paid"}}
+        {{> post-card-custom }}
+      {{/has}}
+    {{/foreach}}
+  {{/get}}
 
-    </div>
   </div>
-
-  {{ pagination }}
 
 {{/post}}
