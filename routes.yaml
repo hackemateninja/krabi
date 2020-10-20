@@ -4,7 +4,6 @@ routes:
   /signin/: members/signin
   /account/: members/account
   /free/: free
-  /pro/: pro
   /store/: store
 
 collections:

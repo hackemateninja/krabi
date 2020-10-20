@@ -21,9 +21,14 @@
   <component name="ChangeListManager">
     <list default="true" id="5da7b9d1-873e-4143-81c5-4d2b864ed98b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partials/footer.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/partials/footer.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/partials/post-card-product.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/partials/post-card-product.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/post.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style-min-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style-min-rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/components/_logo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/components/_logo.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/sass/components/_search.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/sass/components/_search.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/compiled/inline-css-rtl.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/partials/compiled/inline-css-rtl.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/compiled/inline-css.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/partials/compiled/inline-css.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pro.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/custom-pro.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/routes.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602911682811</updated>
       <workItem from="1602911683866" duration="13469000" />
-      <workItem from="1602992078600" duration="37372000" />
+      <workItem from="1602992078600" duration="39242000" />
     </task>
     <servers />
   </component>
