@@ -5,11 +5,16 @@
 <div class='c-archive'>
   <h1 class='c-archive__title'>Free Lessons</h1>
 </div>
-<div class='o-grid'>
-  {{#get 'posts' filter="visibility:public+featured:false"}}
-    {{#foreach posts}}
-      {{> post-card-custom }}
-    {{/foreach}}
-  {{/get}}
+
+<div class='js-grid'>
+  <div class='o-grid'>
+    {{#get 'posts' filter="visibility:public+featured:false"}}
+      {{#foreach posts}}
+        {{> post-card-custom }}
+      {{/foreach}}
+    {{/get}}
+  </div>
 </div>
+
+{{ pagination }}
 {{/post}}

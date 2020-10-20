@@ -8,7 +8,11 @@
       <div class='c-title-bar'>
         <h3 class='c-title-bar__title'>{{t 'You might also like' }}</h3>
       </div>
-    {{> loop }}
+      <div class='o-grid'>
+        {{#foreach posts visibility='all'}}
+          {{> post-card-custom }}
+        {{/foreach}}
+      </div>
     </div>
   {{/if}}
 {{/get}}
