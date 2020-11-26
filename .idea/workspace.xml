@@ -21,10 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="5da7b9d1-873e-4143-81c5-4d2b864ed98b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-free.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/custom-free.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-pro.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/custom-pro.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-store.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/custom-store.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/tag.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-tags.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/custom-tags.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/page.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/header.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/partials/header.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/post-upgrade-cta.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/partials/post-upgrade-cta.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/routes.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/partials" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -79,7 +80,9 @@
       <option name="presentableId" value="Default" />
       <updated>1602911682811</updated>
       <workItem from="1602911683866" duration="13469000" />
-      <workItem from="1602992078600" duration="45341000" />
+      <workItem from="1602992078600" duration="47112000" />
+      <workItem from="1606258963676" duration="790000" />
+      <workItem from="1606342983988" duration="867000" />
     </task>
     <servers />
   </component>
@@ -96,6 +99,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1867" height="262" key="GridCell.Tab.0.bottom" timestamp="1602988048751">
@@ -118,13 +122,13 @@
       <screen x="-1920" y="23" width="1920" height="1004" />
     </state>
     <state x="-1374" y="251" key="IDE.errors.dialog/0.23.1680.1027/-1920.23.1920.1004@-1920.23.1920.1004" timestamp="1603098459182" />
-    <state x="-1423" y="149" key="SettingsEditor" timestamp="1603015348432">
+    <state x="-1423" y="149" key="SettingsEditor" timestamp="1603184459539">
       <screen x="-1920" y="23" width="1920" height="1004" />
     </state>
-    <state x="-1423" y="149" key="SettingsEditor/0.23.1680.1027/-1920.23.1920.1004@-1920.23.1920.1004" timestamp="1603015348432" />
-    <state x="-1278" y="138" width="634" height="744" key="find.popup" timestamp="1603019718091">
+    <state x="-1423" y="149" key="SettingsEditor/0.23.1680.1027/-1920.23.1920.1004@-1920.23.1920.1004" timestamp="1603184459539" />
+    <state x="-1278" y="138" width="634" height="744" key="find.popup" timestamp="1603182201482">
       <screen x="-1920" y="23" width="1920" height="1004" />
     </state>
-    <state x="-1278" y="138" width="634" height="744" key="find.popup/0.23.1680.1027/-1920.23.1920.1004@-1920.23.1920.1004" timestamp="1603019718091" />
+    <state x="-1278" y="138" width="634" height="744" key="find.popup/0.23.1680.1027/-1920.23.1920.1004@-1920.23.1920.1004" timestamp="1603182201482" />
   </component>
 </project>

@@ -7,7 +7,7 @@
 </div>
 
 <div class='o-grid'>
-  {{#get 'tags' limit='all' include='count.posts' order='count.posts desc'}}
+  {{#get 'tags' limit='all' include='count.posts' order='count.posts asc'}}
     {{#foreach tags}}
       {{> card-tag }}
     {{/foreach}}
