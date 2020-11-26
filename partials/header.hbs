@@ -29,10 +29,10 @@
             </li>
             {{#if @labs.members}}
               {{#if @member}}
-                <li class='c-nav__item'><a href='/#/portal/account/profile' class='c-nav__link'>{{t 'Account' }}</a></li>
+                <li class='c-nav__item'><a href='#/portal/account/profile' class='c-nav__link'>{{t 'Account' }}</a></li>
                 <li class='c-nav__item'><a href='/#signout' class='c-nav__link' data-members-signout>{{t 'Log Out' }}</a></li>
               {{else}}
-                <li class='c-nav__item'><a href='/#/portal/signin' class='c-btn c-btn--small c-btn--outline'>{{t 'Log In' }}</a></li>
+                <li class='c-nav__item'><a href='#/portal/signin' class='c-btn c-btn--small c-btn--outline'>{{t 'Log In' }}</a></li>
                 <li class='c-nav__item'><a href='/subscribe/' class='c-btn c-btn--small c-btn--action'>{{t 'Subscribe' }}</a></li>
               {{/if}}
             {{/if}}

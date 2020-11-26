@@ -21,11 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5da7b9d1-873e-4143-81c5-4d2b864ed98b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom-tags.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/custom-tags.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/page.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partials/header.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/partials/header.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/partials/post-upgrade-cta.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/partials/post-upgrade-cta.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/routes.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +79,7 @@
       <workItem from="1602911683866" duration="13469000" />
       <workItem from="1602992078600" duration="47112000" />
       <workItem from="1606258963676" duration="790000" />
-      <workItem from="1606342983988" duration="867000" />
+      <workItem from="1606342983988" duration="1144000" />
     </task>
     <servers />
   </component>
