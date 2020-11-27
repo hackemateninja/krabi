@@ -8,7 +8,6 @@ collections:
   /:
     permalink: /{slug}/
     template: index
-    published_at: asc
 
 
 taxonomies:
